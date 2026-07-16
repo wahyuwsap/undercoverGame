@@ -1,0 +1,9 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "undercovergame",
+	"compatibility_date": "2026-07-16",
+	"compatibility_flags": [
+		"nodejs_als"
+	],
+	"pages_build_output_dir": ".svelte-kit/cloudflare"
+}
