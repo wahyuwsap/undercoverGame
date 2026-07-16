@@ -11,7 +11,8 @@ export const gameConfig = writable({
   totalPlayers: 4,
   undercovers: 1,
   mrWhites: 0,
-  showRoles: false
+  showRoles: false,
+  useDigitalVoting: true
 });
 export const currentWordPairId = writable<number | null>(null);
 

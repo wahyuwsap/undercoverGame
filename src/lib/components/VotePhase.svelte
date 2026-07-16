@@ -1,6 +1,7 @@
 <script lang="ts">
-  import { players, currentPhase, resetGame } from '$lib/stores/game';
+  import { players, currentPhase, resetGame, gameConfig } from '$lib/stores/game';
   import { fade, slide } from 'svelte/transition';
+  import { onMount } from 'svelte';
 
   let selectedPlayerId: string | null = $state(null);
   let mrWhiteGuessPhase = $state(false);
@@ -11,6 +12,13 @@
   let winners = $state('');
 
   let alivePlayers = $derived($players.filter(p => !p.isEliminated));
+
+  onMount(() => {
+    if (!$gameConfig.useDigitalVoting) {
+      gameOver = true;
+      winners = 'Semua Peran';
+    }
+  });
 
   function eliminate() {
     if (!selectedPlayerId) return;
@@ -75,9 +83,15 @@
       
       <div class="mb-12 relative">
         <div class="absolute inset-0 bg-neon-pink/20 blur-[50px] rounded-full"></div>
-        <h1 class="text-6xl font-outfit font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-neon-pink to-orange-400">
-          {winners} WIN!
-        </h1>
+        {#if $gameConfig.useDigitalVoting}
+          <h1 class="text-6xl font-outfit font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-neon-pink to-orange-400">
+            {winners} WIN!
+          </h1>
+        {:else}
+          <h1 class="text-5xl font-outfit font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-neon-cyan to-blue-400">
+            {winners}
+          </h1>
+        {/if}
       </div>
 
       <div class="w-full bg-slate-800/60 rounded-3xl p-6 border border-slate-700 max-h-[50vh] overflow-y-auto mb-8 shadow-inner custom-scrollbar">

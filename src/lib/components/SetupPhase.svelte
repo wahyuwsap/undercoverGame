@@ -87,6 +87,19 @@
           <div class="w-6 h-6 rounded-full bg-white transition-transform duration-300 ease-in-out {$gameConfig.showRoles ? 'translate-x-6' : 'translate-x-0'}"></div>
         </button>
       </div>
+      
+      <div class="flex justify-between items-center mt-4 pt-4 border-t border-slate-700/50">
+        <div>
+          <label class="font-outfit font-semibold text-lg text-slate-300 block">Voting Digital</label>
+          <span class="text-xs text-slate-500">Gunakan aplikasi untuk proses eliminasi</span>
+        </div>
+        <button 
+          class="w-14 h-8 rounded-full p-1 transition-colors duration-300 ease-in-out {$gameConfig.useDigitalVoting ? 'bg-neon-pink' : 'bg-slate-700'}"
+          onclick={() => $gameConfig.useDigitalVoting = !$gameConfig.useDigitalVoting}
+        >
+          <div class="w-6 h-6 rounded-full bg-white transition-transform duration-300 ease-in-out {$gameConfig.useDigitalVoting ? 'translate-x-6' : 'translate-x-0'}"></div>
+        </button>
+      </div>
     </div>
 
     <div class="space-y-3">
