@@ -1,1 +1,8 @@
 @import 'tailwindcss';
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
+  --color-neon-pink: #ff2a85;
+  --color-neon-cyan: #00f0ff;
+}
