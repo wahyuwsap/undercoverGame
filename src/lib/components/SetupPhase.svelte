@@ -2,9 +2,20 @@
   import { gameConfig, players, currentPhase } from '$lib/stores/game';
   import { generatePlayers } from '$lib/utils/storage';
   import { fade, slide } from 'svelte/transition';
+  import { onMount } from 'svelte';
 
   let names: string[] = $state(['Player 1', 'Player 2', 'Player 3', 'Player 4']);
   let error = $state('');
+
+  onMount(() => {
+    const saved = localStorage.getItem('undercover_saved_names');
+    if (saved) {
+      try {
+        names = JSON.parse(saved);
+        $gameConfig.totalPlayers = names.length;
+      } catch (e) {}
+    }
+  });
 
   function addPlayer() {
     names = [...names, `Player ${names.length + 1}`];
@@ -26,6 +37,7 @@
     }
     
     error = '';
+    localStorage.setItem('undercover_saved_names', JSON.stringify(names));
     const generated = generatePlayers(names, $gameConfig.undercovers, $gameConfig.mrWhites);
     players.set(generated);
     currentPhase.set('distribution');
@@ -64,6 +76,16 @@
           <span class="text-xl font-bold font-outfit w-4 text-center">{$gameConfig.mrWhites}</span>
           <button class="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center font-bold" onclick={() => $gameConfig.mrWhites++}>+</button>
         </div>
+      </div>
+      
+      <div class="flex justify-between items-center mt-4 pt-4 border-t border-slate-700/50">
+        <label class="font-outfit font-semibold text-lg text-slate-300">Tampilkan Role</label>
+        <button 
+          class="w-14 h-8 rounded-full p-1 transition-colors duration-300 ease-in-out {$gameConfig.showRoles ? 'bg-neon-cyan' : 'bg-slate-700'}"
+          onclick={() => $gameConfig.showRoles = !$gameConfig.showRoles}
+        >
+          <div class="w-6 h-6 rounded-full bg-white transition-transform duration-300 ease-in-out {$gameConfig.showRoles ? 'translate-x-6' : 'translate-x-0'}"></div>
+        </button>
       </div>
     </div>
 

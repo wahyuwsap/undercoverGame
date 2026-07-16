@@ -80,19 +80,21 @@
         </h1>
       </div>
 
-      <div class="w-full bg-slate-800/50 rounded-2xl p-6 border border-slate-700 max-h-[40vh] overflow-y-auto mb-8">
-        <h3 class="font-outfit font-bold text-xl mb-4 border-b border-slate-700 pb-2">Roles Revealed</h3>
-        {#each $players as p}
-          <div class="flex justify-between items-center py-2 border-b border-slate-700/50 last:border-0">
-            <span class="font-medium {p.isEliminated ? 'text-slate-500 line-through' : 'text-slate-200'}">{p.name}</span>
-            <div class="text-right">
-              <div class="text-sm font-bold {p.role === 'Civilian' ? 'text-neon-cyan' : p.role === 'Undercover' ? 'text-neon-pink' : 'text-white'}">{p.role}</div>
-              {#if p.role !== 'Mr. White'}
-                <div class="text-xs text-slate-400">{p.word}</div>
-              {/if}
+      <div class="w-full bg-slate-800/60 rounded-3xl p-6 border border-slate-700 max-h-[50vh] overflow-y-auto mb-8 shadow-inner custom-scrollbar">
+        <h3 class="font-outfit font-bold text-2xl mb-4 border-b border-slate-700/80 pb-3 text-slate-200">Roles Revealed</h3>
+        <div class="space-y-2">
+          {#each $players as p}
+            <div class="flex justify-between items-center py-3 border-b border-slate-700/30 last:border-0">
+              <span class="font-medium text-lg {p.isEliminated ? 'text-slate-500 line-through' : 'text-slate-100'}">{p.name}</span>
+              <div class="text-right">
+                <div class="text-sm font-bold uppercase tracking-wider {p.role === 'Civilian' ? 'text-neon-cyan' : p.role === 'Undercover' ? 'text-neon-pink' : 'text-white'}">{p.role}</div>
+                {#if p.role !== 'Mr. White'}
+                  <div class="text-sm text-slate-400 mt-0.5">{p.word}</div>
+                {/if}
+              </div>
             </div>
-          </div>
-        {/each}
+          {/each}
+        </div>
       </div>
 
       <button 
@@ -162,3 +164,16 @@
     </div>
   {/if}
 </div>
+
+<style>
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 4px;
+  }
+</style>

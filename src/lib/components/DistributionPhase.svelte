@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { players, currentPhase } from '$lib/stores/game';
+  import { players, currentPhase, gameConfig } from '$lib/stores/game';
   import { fade, scale } from 'svelte/transition';
 
   let currentPlayerIndex = $state(0);
@@ -49,7 +49,11 @@
           <h3 class="text-4xl font-outfit font-bold text-white mb-2">Mr. White</h3>
           <p class="text-slate-300 mt-6 text-lg px-4">You have <span class="text-neon-pink font-bold">NO WORD</span>. Try to blend in and guess the civilian word!</p>
         {:else}
-          <h3 class="text-3xl font-outfit font-bold text-slate-200 mb-6">{player.role}</h3>
+          {#if $gameConfig.showRoles}
+            <h3 class="text-3xl font-outfit font-bold text-slate-200 mb-6">{player.role}</h3>
+          {:else}
+            <div class="h-12"></div> <!-- Spacer to maintain card size when role is hidden -->
+          {/if}
           <p class="text-slate-400 text-sm uppercase tracking-widest mb-2">Your Secret Word</p>
           <div class="text-5xl font-outfit font-bold text-transparent bg-clip-text bg-gradient-to-r from-neon-pink to-neon-cyan py-2">
             {player.word}
