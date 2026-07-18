@@ -75,6 +75,14 @@
         <div class="absolute inset-0 bg-neon-pink/20 blur-[60px] rounded-full"></div>
         <div class="bg-slate-800/80 p-10 rounded-[40px] border border-neon-pink/30 backdrop-blur-md relative shadow-2xl">
           <h2 class="text-4xl font-outfit font-bold text-white mb-6">Real Life Mode</h2>
+          
+          {#if turnOrder.length > 0}
+            <div class="mb-6 p-4 bg-slate-700/50 rounded-2xl border border-neon-cyan/20">
+              <p class="text-slate-400 text-sm uppercase tracking-widest mb-1">Yang memulai diskusi:</p>
+              <p class="text-3xl font-outfit font-bold text-neon-cyan">{$players[turnOrder[0]].name}</p>
+            </div>
+          {/if}
+
           <p class="text-slate-300 text-lg leading-relaxed">
             Silakan berdiskusi dan lakukan voting secara langsung di dunia nyata.
           </p>

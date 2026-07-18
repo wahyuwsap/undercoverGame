@@ -1,11 +1,22 @@
 <script lang="ts">
   import { players, currentPhase, gameConfig } from '$lib/stores/game';
   import { fade, scale } from 'svelte/transition';
+  import { onMount } from 'svelte';
 
-  let currentPlayerIndex = $state(0);
+  let distributionOrder = $state<number[]>([]);
+  let currentOrderIndex = $state(0);
   let isRevealed = $state(false);
 
-  let player = $derived($players[currentPlayerIndex]);
+  onMount(() => {
+    const startIndex = Math.floor(Math.random() * $players.length);
+    let order: number[] = [];
+    for (let i = 0; i < $players.length; i++) {
+      order.push((startIndex + i) % $players.length);
+    }
+    distributionOrder = order;
+  });
+
+  let player = $derived($players[distributionOrder[currentOrderIndex]] || $players[0]);
 
   function reveal() {
     isRevealed = true;
@@ -13,8 +24,8 @@
 
   function hideAndPass() {
     isRevealed = false;
-    if (currentPlayerIndex < $players.length - 1) {
-      currentPlayerIndex++;
+    if (currentOrderIndex < distributionOrder.length - 1) {
+      currentOrderIndex++;
     } else {
       currentPhase.set('game');
     }

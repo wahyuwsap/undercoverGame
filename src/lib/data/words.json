@@ -1,962 +1,6827 @@
 [
-  { "id": 1, "words": ["Bulan", "Bintang"] },
-  { "id": 2, "words": ["Gunung", "Bukit"] },
-  { "id": 3, "words": ["Soto", "Sup"] },
-  { "id": 4, "words": ["Kopi", "Teh"] },
-  { "id": 5, "words": ["Singa", "Harimau"] },
-  { "id": 6, "words": ["Pensil", "Pulpen"] },
-  { "id": 7, "words": ["Gitar", "Bass"] },
-  { "id": 8, "words": ["Mobil", "Motor"] },
-  { "id": 9, "words": ["Pantai", "Laut"] },
-  { "id": 10, "words": ["Hujan", "Salju"] },
-  { "id": 11, "words": ["Pisang", "Pepaya"] },
-  { "id": 12, "words": ["Ayam", "Bebek"] },
-  { "id": 13, "words": ["Sepatu", "Sandal"] },
-  { "id": 14, "words": ["Laptop", "Komputer"] },
-  { "id": 15, "words": ["Buku", "Majalah"] },
-  { "id": 16, "words": ["Baju", "Kemeja"] },
-  { "id": 17, "words": ["Kacamata", "Softlens"] },
-  { "id": 18, "words": ["Kucing", "Anjing"] },
-  { "id": 19, "words": ["Susu", "Yogurt"] },
-  { "id": 20, "words": ["Es Krim", "Gelato"] },
-  { "id": 21, "words": ["Pizza", "Burger"] },
-  { "id": 22, "words": ["Gelas", "Cangkir"] },
-  { "id": 23, "words": ["Piring", "Mangkok"] },
-  { "id": 24, "words": ["Sendok", "Garpu"] },
-  { "id": 25, "words": ["Tas", "Koper"] },
-  { "id": 26, "words": ["Jam Tangan", "Jam Dinding"] },
-  { "id": 27, "words": ["Kipas Angin", "AC"] },
-  { "id": 28, "words": ["Televisi", "Radio"] },
-  { "id": 29, "words": ["Kamera", "Handphone"] },
-  { "id": 30, "words": ["Pesawat", "Helikopter"] },
-  { "id": 31, "words": ["Kapal", "Perahu"] },
-  { "id": 32, "words": ["Kereta", "Bus"] },
-  { "id": 33, "words": ["Sepeda", "Skuter"] },
-  { "id": 34, "words": ["Matahari", "Bulan"] },
-  { "id": 35, "words": ["Awan", "Langit"] },
-  { "id": 36, "words": ["Pohon", "Bunga"] },
-  { "id": 37, "words": ["Daun", "Ranting"] },
-  { "id": 38, "words": ["Batu", "Pasir"] },
-  { "id": 39, "words": ["Sungai", "Danau"] },
-  { "id": 40, "words": ["Air", "Api"] },
-  { "id": 41, "words": ["Angin", "Badai"] },
-  { "id": 42, "words": ["Pagi", "Sore"] },
-  { "id": 43, "words": ["Siang", "Malam"] },
-  { "id": 44, "words": ["Merah", "Kuning"] },
-  { "id": 45, "words": ["Biru", "Hijau"] },
-  { "id": 46, "words": ["Hitam", "Putih"] },
-  { "id": 47, "words": ["Garam", "Gula"] },
-  { "id": 48, "words": ["Lada", "Ketumbar"] },
-  { "id": 49, "words": ["Bawang Merah", "Bawang Putih"] },
-  { "id": 50, "words": ["Kecap", "Saus"] },
-  { "id": 51, "words": ["Sambal", "Tomat"] },
-  { "id": 52, "words": ["Sate", "Gulai"] },
-  { "id": 53, "words": ["Bakso", "Mie Ayam"] },
-  { "id": 54, "words": ["Nasi Goreng", "Mie Goreng"] },
-  { "id": 55, "words": ["Roti", "Kue"] },
-  { "id": 56, "words": ["Cokelat", "Keju"] },
-  { "id": 57, "words": ["Tahu", "Tempe"] },
-  { "id": 58, "words": ["Ikan", "Udang"] },
-  { "id": 59, "words": ["Cumi", "Kepiting"] },
-  { "id": 60, "words": ["Apel", "Jeruk"] },
-  { "id": 61, "words": ["Mangga", "Nanas"] },
-  { "id": 62, "words": ["Anggur", "Stroberi"] },
-  { "id": 63, "words": ["Semangka", "Melon"] },
-  { "id": 64, "words": ["Durian", "Nangka"] },
-  { "id": 65, "words": ["Bantal", "Guling"] },
-  { "id": 66, "words": ["Kasur", "Sofa"] },
-  { "id": 67, "words": ["Meja", "Kursi"] },
-  { "id": 68, "words": ["Lemari", "Laci"] },
-  { "id": 69, "words": ["Pintu", "Jendela"] },
-  { "id": 70, "words": ["Kunci", "Gembok"] },
-  { "id": 71, "words": ["Lantai", "Atap"] },
-  { "id": 72, "words": ["Tembok", "Pagar"] },
-  { "id": 73, "words": ["Sapu", "Pel"] },
-  { "id": 74, "words": ["Ember", "Gayung"] },
-  { "id": 75, "words": ["Sabun", "Shampoo"] },
-  { "id": 76, "words": ["Sikat Gigi", "Pasta Gigi"] },
-  { "id": 77, "words": ["Handuk", "Tisu"] },
-  { "id": 78, "words": ["Cermin", "Kaca"] },
-  { "id": 79, "words": ["Sisir", "Jepit Rambut"] },
-  { "id": 80, "words": ["Topi", "Helm"] },
-  { "id": 81, "words": ["Jaket", "Jas"] },
-  { "id": 82, "words": ["Celana", "Rok"] },
-  { "id": 83, "words": ["Dasi", "Sabuk"] },
-  { "id": 84, "words": ["Dompet", "Tas Ransel"] },
-  { "id": 85, "words": ["Uang", "Kartu Kredit"] },
-  { "id": 86, "words": ["Kertas", "Kardus"] },
-  { "id": 87, "words": ["Gunting", "Pisau"] },
-  { "id": 88, "words": ["Paku", "Palu"] },
-  { "id": 89, "words": ["Gergaji", "Kapak"] },
-  { "id": 90, "words": ["Lem", "Selotip"] },
-  { "id": 91, "words": ["Karet", "Plastik"] },
-  { "id": 92, "words": ["Kaca", "Logam"] },
-  { "id": 93, "words": ["Kayu", "Besi"] },
-  { "id": 94, "words": ["Emas", "Perak"] },
-  { "id": 95, "words": ["Dokter", "Perawat"] },
-  { "id": 96, "words": ["Guru", "Dosen"] },
-  { "id": 97, "words": ["Polisi", "Tentara"] },
-  { "id": 98, "words": ["Pilot", "Pramugari"] },
-  { "id": 99, "words": ["Penyanyi", "Aktor"] },
-  { "id": 100, "words": ["Pelukis", "Penulis"] },
-  { "id": 101, "words": ["Macan", "Cheetah"] },
-  { "id": 102, "words": ["Kura-kura", "Penyu"] },
-  { "id": 103, "words": ["Kelinci", "Marmut"] },
-  { "id": 104, "words": ["Katak", "Kodok"] },
-  { "id": 105, "words": ["Ular", "Cacing"] },
-  { "id": 106, "words": ["Nyamuk", "Lalat"] },
-  { "id": 107, "words": ["Kupu-kupu", "Ngengat"] },
-  { "id": 108, "words": ["Laba-laba", "Kalajengking"] },
-  { "id": 109, "words": ["Semut", "Rayap"] },
-  { "id": 110, "words": ["Burung Hantu", "Kelelawar"] },
-  { "id": 111, "words": ["Merpati", "Gagak"] },
-  { "id": 112, "words": ["Elang", "Rajawali"] },
-  { "id": 113, "words": ["Kuda", "Keledai"] },
-  { "id": 114, "words": ["Sapi", "Kerbau"] },
-  { "id": 115, "words": ["Kambing", "Domba"] },
-  { "id": 116, "words": ["Babi", "Celeng"] },
-  { "id": 117, "words": ["Paus", "Lumba-lumba"] },
-  { "id": 118, "words": ["Hiu", "Pari"] },
-  { "id": 119, "words": ["Gurita", "Cumi-cumi"] },
-  { "id": 120, "words": ["Buaya", "Aligator"] },
-  { "id": 121, "words": ["Kadal", "Bunglon"] },
-  { "id": 122, "words": ["Manggis", "Rambutan"] },
-  { "id": 123, "words": ["Salak", "Duku"] },
-  { "id": 124, "words": ["Kelapa", "Aren"] },
-  { "id": 125, "words": ["Singkong", "Ubi"] },
-  { "id": 126, "words": ["Kentang", "Wortel"] },
-  { "id": 127, "words": ["Bayam", "Kangkung"] },
-  { "id": 128, "words": ["Brokoli", "Kembang Kol"] },
-  { "id": 129, "words": ["Jamur", "Truffle"] },
-  { "id": 130, "words": ["Beras", "Gandum"] },
-  { "id": 131, "words": ["Jagung", "Kedelai"] },
-  { "id": 132, "words": ["Kacang Tanah", "Kacang Hijau"] },
-  { "id": 133, "words": ["Kuaci", "Mede"] },
-  { "id": 134, "words": ["Kurma", "Kismis"] },
-  { "id": 135, "words": ["Sirup", "Madu"] },
-  { "id": 136, "words": ["Mentega", "Margarin"] },
-  { "id": 137, "words": ["Sosis", "Nugget"] },
-  { "id": 138, "words": ["Kebab", "Shawarma"] },
-  { "id": 139, "words": ["Sushi", "Kimbap"] },
-  { "id": 140, "words": ["Ramen", "Udon"] },
-  { "id": 141, "words": ["Spaghetti", "Makaroni"] },
-  { "id": 142, "words": ["Bubur", "Oatmeal"] },
-  { "id": 143, "words": ["Kerupuk", "Keripik"] },
-  { "id": 144, "words": ["Permen", "Jeli"] },
-  { "id": 145, "words": ["Martabak", "Terang Bulan"] },
-  { "id": 146, "words": ["Onde-onde", "Klepon"] },
-  { "id": 147, "words": ["Batik", "Tenun"] },
-  { "id": 148, "words": ["Kaos", "Sweater"] },
-  { "id": 149, "words": ["Sarung", "Sorban"] },
-  { "id": 150, "words": ["Kerudung", "Peci"] },
-  { "id": 151, "words": ["Gelang", "Kalung"] },
-  { "id": 152, "words": ["Cincin", "Anting"] },
-  { "id": 153, "words": ["Pita", "Jepit"] },
-  { "id": 154, "words": ["Make Up", "Skincare"] },
-  { "id": 155, "words": ["Lipstik", "Lip Balm"] },
-  { "id": 156, "words": ["Parfum", "Deodoran"] },
-  { "id": 157, "words": ["Bedak", "Foundation"] },
-  { "id": 158, "words": ["Payung", "Jas Hujan"] },
-  { "id": 159, "words": ["Sepatu Roda", "Skateboard"] },
-  { "id": 160, "words": ["Raket", "Tongkat Kasti"] },
-  { "id": 161, "words": ["Bola Basket", "Bola Voli"] },
-  { "id": 162, "words": ["Biliar", "Bowling"] },
-  { "id": 163, "words": ["Catur", "Halma"] },
-  { "id": 164, "words": ["Kartu Remi", "Domino"] },
-  { "id": 165, "words": ["Dadu", "Koin"] },
-  { "id": 166, "words": ["Monopoli", "Ular Tangga"] },
-  { "id": 167, "words": ["Gitar Akustik", "Gitar Listrik"] },
-  { "id": 168, "words": ["Piano", "Organ"] },
-  { "id": 169, "words": ["Drum", "Perkusi"] },
-  { "id": 170, "words": ["Suling", "Terompet"] },
-  { "id": 171, "words": ["Biola", "Cello"] },
-  { "id": 172, "words": ["Rumah", "Apartemen"] },
-  { "id": 173, "words": ["Hotel", "Vila"] },
-  { "id": 174, "words": ["Tenda", "Kabin"] },
-  { "id": 175, "words": ["Istana", "Kastil"] },
-  { "id": 176, "words": ["Gedung", "Menara"] },
-  { "id": 177, "words": ["Jembatan", "Terowongan"] },
-  { "id": 178, "words": ["Jalan Raya", "Jalan Tol"] },
-  { "id": 179, "words": ["Bandara", "Pelabuhan"] },
-  { "id": 180, "words": ["Stasiun", "Terminal"] },
-  { "id": 181, "words": ["Pasar", "Supermarket"] },
-  { "id": 182, "words": ["Mall", "Plaza"] },
-  { "id": 183, "words": ["Toko", "Warung"] },
-  { "id": 184, "words": ["Kafe", "Restoran"] },
-  { "id": 185, "words": ["Apotek", "Klinik"] },
-  { "id": 186, "words": ["Rumah Sakit", "Puskesmas"] },
-  { "id": 187, "words": ["Sekolah", "Kampus"] },
-  { "id": 188, "words": ["Perpustakaan", "Toko Buku"] },
-  { "id": 189, "words": ["Museum", "Galeri"] },
-  { "id": 190, "words": ["Bioskop", "Teater"] },
-  { "id": 191, "words": ["Taman", "Hutan"] },
-  { "id": 192, "words": ["Kebun Binatang", "Safari"] },
-  { "id": 193, "words": ["Kolam Renang", "Waterboom"] },
-  { "id": 194, "words": ["Masjid", "Gereja"] },
-  { "id": 195, "words": ["Vihara", "Pura"] },
-  { "id": 196, "words": ["Kuburan", "Makam"] },
-  { "id": 197, "words": ["Penjara", "Sel"] },
-  { "id": 198, "words": ["Kantor", "Pabrik"] },
-  { "id": 199, "words": ["Gudang", "Garasi"] },
-  { "id": 200, "words": ["Dapur", "Ruang Makan"] },
-  { "id": 201, "words": ["Kamar Mandi", "Toilet"] },
-  { "id": 202, "words": ["Balkon", "Teras"] },
-  { "id": 203, "words": ["Kuli", "Tukang"] },
-  { "id": 204, "words": ["Satpam", "Hansip"] },
-  { "id": 205, "words": ["Supir", "Masinis"] },
-  { "id": 206, "words": ["Nahkoda", "Pelaut"] },
-  { "id": 207, "words": ["Koki", "Pelayan"] },
-  { "id": 208, "words": ["Kasir", "Akuntan"] },
-  { "id": 209, "words": ["Direktur", "Manajer"] },
-  { "id": 210, "words": ["Presiden", "Menteri"] },
-  { "id": 211, "words": ["Gubernur", "Bupati"] },
-  { "id": 212, "words": ["Raja", "Pangeran"] },
-  { "id": 213, "words": ["Hakim", "Pengacara"] },
-  { "id": 214, "words": ["Wartawan", "Fotografer"] },
-  { "id": 215, "words": ["Programmer", "Desainer"] },
-  { "id": 216, "words": ["Atlet", "Pelatih"] },
-  { "id": 217, "words": ["Wasit", "Komentator"] },
-  { "id": 218, "words": ["Tukang Cukur", "Salon"] },
-  { "id": 219, "words": ["Penjahit", "Desainer Baju"] },
-  { "id": 220, "words": ["Petani", "Nelayan"] },
-  { "id": 221, "words": ["Tractor", "Buldoser"] },
-  { "id": 222, "words": ["Truk", "Pick Up"] },
-  { "id": 223, "words": ["Ambulans", "Mobil Polisi"] },
-  { "id": 224, "words": ["Taksi", "Angkot"] },
-  { "id": 225, "words": ["Becak", "Bemo"] },
-  { "id": 226, "words": ["Kereta Gantung", "Bianglala"] },
-  { "id": 227, "words": ["Rudal", "Roket"] },
-  { "id": 228, "words": ["Senapan", "Pistol"] },
-  { "id": 229, "words": ["Bom", "Granat"] },
-  { "id": 230, "words": ["Pedang", "Keris"] },
-  { "id": 231, "words": ["Tombak", "Panah"] },
-  { "id": 232, "words": ["Perisai", "Helm Baja"] },
-  { "id": 233, "words": ["Batu Bata", "Semen"] },
-  { "id": 234, "words": ["Pasir", "Kerikil"] },
-  { "id": 235, "words": ["Baja", "Besi Cor"] },
-  { "id": 236, "words": ["Kabel", "Kawat"] },
-  { "id": 237, "words": ["Baterai", "Aki"] },
-  { "id": 238, "words": ["Colokan", "Saklar"] },
-  { "id": 239, "words": ["Lampu", "Senter"] },
-  { "id": 240, "words": ["Lilin", "Obor"] },
-  { "id": 241, "words": ["Korek Api", "Pemantik"] },
-  { "id": 242, "words": ["Kalkulator", "Sempoa"] },
-  { "id": 243, "words": ["Proyektor", "Layar"] },
-  { "id": 244, "words": ["Printer", "Scanner"] },
-  { "id": 245, "words": ["Mouse", "Keyboard"] },
-  { "id": 246, "words": ["Flashdisk", "Hardisk"] },
-  { "id": 247, "words": ["Wi-Fi", "Bluetooth"] },
-  { "id": 248, "words": ["Sinyal", "Kuota"] },
-  { "id": 249, "words": ["Aplikasi", "Website"] },
-  { "id": 250, "words": ["Server", "Database"] },
-  { "id": 251, "words": ["Skripsi", "Tesis"] },
-  { "id": 252, "words": ["Svelte", "React"] },
-  { "id": 253, "words": ["Laravel", "CodeIgniter"] },
-  { "id": 254, "words": ["Phishing", "Spam"] },
-  { "id": 255, "words": ["Malware", "Virus"] },
-  { "id": 256, "words": ["Hacker", "Cracker"] },
-  { "id": 257, "words": ["Figma", "Canva"] },
-  { "id": 258, "words": ["Roblox", "Minecraft"] },
-  { "id": 259, "words": ["Live2D", "Blender"] },
-  { "id": 260, "words": ["Animasi", "Kartun"] },
-  { "id": 261, "words": ["Bandar Lampung", "Palembang"] },
-  { "id": 262, "words": ["Kopi Lampung", "Kopi Luwak"] },
-  { "id": 263, "words": ["Magang", "Kerja Praktik"] },
-  { "id": 264, "words": ["Frontend", "Backend"] },
-  { "id": 265, "words": ["SQL", "NoSQL"] },
-  { "id": 266, "words": ["Python", "JavaScript"] },
-  { "id": 267, "words": ["Algoritma", "Logika"] },
-  { "id": 268, "words": ["Statistik", "Matematika"] },
-  { "id": 269, "words": ["Data Science", "Machine Learning"] },
-  { "id": 270, "words": ["Bansos", "Subsidi"] },
-  { "id": 271, "words": ["Getah", "Resin"] },
-  { "id": 272, "words": ["Sistem Informasi", "Teknik Informatika"] },
-  { "id": 273, "words": ["Gempa", "Tsunami"] },
-  { "id": 274, "words": ["Banjir", "Longsor"] },
-  { "id": 275, "words": ["Gunung Meletus", "Badai"] },
-  { "id": 276, "words": ["Kemarau", "Penghujan"] },
-  { "id": 277, "words": ["Surga", "Neraka"] },
-  { "id": 278, "words": ["Malaikat", "Iblis"] },
-  { "id": 279, "words": ["Pahlawan", "Penjahat"] },
-  { "id": 280, "words": ["Ksatria", "Samurai"] },
-  { "id": 281, "words": ["Ninja", "Assassin"] },
-  { "id": 282, "words": ["Penyihir", "Dukun"] },
-  { "id": 283, "words": ["Hantu", "Monster"] },
-  { "id": 284, "words": ["Vampir", "Zombi"] },
-  { "id": 285, "words": ["Alien", "Mutan"] },
-  { "id": 286, "words": ["Robot", "Cyborg"] },
-  { "id": 287, "words": ["Kloning", "Kembar"] },
-  { "id": 288, "words": ["Bayangan", "Siluet"] },
-  { "id": 289, "words": ["Mimpi", "Khayalan"] },
-  { "id": 290, "words": ["Fakta", "Mitos"] },
-  { "id": 291, "words": ["Sejarah", "Legenda"] },
-  { "id": 292, "words": ["Puisi", "Pantun"] },
-  { "id": 293, "words": ["Novel", "Komik"] },
-  { "id": 294, "words": ["Tabloid", "Buletin"] },
-  { "id": 295, "words": ["Berita", "Gosip"] },
-  { "id": 296, "words": ["Wawancara", "Interogasi"] },
-  { "id": 297, "words": ["Diskusi", "Debat"] },
-  { "id": 298, "words": ["Rapat", "Seminar"] },
-  { "id": 299, "words": ["Presentasi", "Pidato"] },
-  { "id": 300, "words": ["Ujian", "Kuis"] },
-  { "id": 301, "words": ["Tugas", "PR"] },
-  { "id": 302, "words": ["Ijazah", "Sertifikat"] },
-  { "id": 303, "words": ["Medali", "Piala"] },
-  { "id": 304, "words": ["Juara", "Pemenang"] },
-  { "id": 305, "words": ["Hadiah", "Kado"] },
-  { "id": 306, "words": ["Kejutan", "Jebakan"] },
-  { "id": 307, "words": ["Rahasia", "Misteri"] },
-  { "id": 308, "words": ["Teka-teki", "Puzzle"] },
-  { "id": 309, "words": ["Password", "PIN"] },
-  { "id": 310, "words": ["Gembok", "Rantai"] },
-  { "id": 311, "words": ["Penjara", "Kurungan"] },
-  { "id": 312, "words": ["Borgol", "Tali"] },
-  { "id": 313, "words": ["Hakim", "Jaksa"] },
-  { "id": 314, "words": ["Terdakwa", "Saksi"] },
-  { "id": 315, "words": ["Bukti", "Petunjuk"] },
-  { "id": 316, "words": ["Pengadilan", "Mahkamah"] },
-  { "id": 317, "words": ["Hukum", "Aturan"] },
-  { "id": 318, "words": ["Denda", "Pajak"] },
-  { "id": 319, "words": ["Gaji", "Bonus"] },
-  { "id": 320, "words": ["Hutang", "Pinjaman"] },
-  { "id": 321, "words": ["Investasi", "Tabungan"] },
-  { "id": 322, "words": ["Saham", "Obligasi"] },
-  { "id": 323, "words": ["Bank", "Koperasi"] },
-  { "id": 324, "words": ["Pasar", "Bursa"] },
-  { "id": 325, "words": ["Pedagang", "Pembeli"] },
-  { "id": 326, "words": ["Diskon", "Promo"] },
-  { "id": 327, "words": ["Gratis", "Murah"] },
-  { "id": 328, "words": ["Mahal", "Mewah"] },
-  { "id": 329, "words": ["Kaya", "Miskin"] },
-  { "id": 330, "words": ["Sukses", "Gagal"] },
-  { "id": 331, "words": ["Bahagia", "Sedih"] },
-  { "id": 332, "words": ["Tertawa", "Menangis"] },
-  { "id": 333, "words": ["Marah", "Kecewa"] },
-  { "id": 334, "words": ["Takut", "Berani"] },
-  { "id": 335, "words": ["Cinta", "Benci"] },
-  { "id": 336, "words": ["Sayang", "Rindu"] },
-  { "id": 337, "words": ["Pelukan", "Ciuman"] },
-  { "id": 338, "words": ["Pernikahan", "Pertunangan"] },
-  { "id": 339, "words": ["Suami", "Istri"] },
-  { "id": 340, "words": ["Ayah", "Ibu"] },
-  { "id": 341, "words": ["Anak", "Cucu"] },
-  { "id": 342, "words": ["Kakek", "Nenek"] },
-  { "id": 343, "words": ["Paman", "Bibi"] },
-  { "id": 344, "words": ["Kakak", "Adik"] },
-  { "id": 345, "words": ["Keluarga", "Kerabat"] },
-  { "id": 346, "words": ["Teman", "Sahabat"] },
-  { "id": 347, "words": ["Musuh", "Lawan"] },
-  { "id": 348, "words": ["Tamu", "Tuan Rumah"] },
-  { "id": 349, "words": ["Tetangga", "Warga"] },
-  { "id": 350, "words": ["Desa", "Kota"] },
-  { "id": 351, "words": ["Provinsi", "Negara"] },
-  { "id": 352, "words": ["Benua", "Pulau"] },
-  { "id": 353, "words": ["Bumi", "Planet"] },
-  { "id": 354, "words": ["Komet", "Asteroid"] },
-  { "id": 355, "words": ["Galaksi", "Tata Surya"] },
-  { "id": 356, "words": ["Kosmonot", "Astronot"] },
-  { "id": 357, "words": ["Satelit", "Teleskop"] },
-  { "id": 358, "words": ["Mikroskop", "Kaca Pembesar"] },
-  { "id": 359, "words": ["Laboratorium", "Eksperimen"] },
-  { "id": 360, "words": ["Ilmuwan", "Peneliti"] },
-  { "id": 361, "words": ["Obat", "Vitamin"] },
-  { "id": 362, "words": ["Suntikan", "Infus"] },
-  { "id": 363, "words": ["Operasi", "Bedah"] },
-  { "id": 364, "words": ["Luka", "Berdarah"] },
-  { "id": 365, "words": ["Sakit", "Sehat"] },
-  { "id": 366, "words": ["Kuman", "Bakteri"] },
-  { "id": 367, "words": ["Masker", "Sarung Tangan"] },
-  { "id": 368, "words": ["Sabun Mandi", "Sabun Cuci"] },
-  { "id": 369, "words": ["Kemenyan", "Dupa"] },
-  { "id": 370, "words": ["Asap", "Debu"] },
-  { "id": 371, "words": ["Tanah", "Lumpur"] },
-  { "id": 372, "words": ["Batu Karang", "Terumbu Karang"] },
-  { "id": 373, "words": ["Rumput", "Ilalang"] },
-  { "id": 374, "words": ["Bambu", "Rotan"] },
-  { "id": 375, "words": ["Cengkeh", "Pala"] },
-  { "id": 376, "words": ["Jahe", "Kunyit"] },
-  { "id": 377, "words": ["Lengkuas", "Kencur"] },
-  { "id": 378, "words": ["Serai", "Daun Salam"] },
-  { "id": 379, "words": ["Cabai", "Paprika"] },
-  { "id": 380, "words": ["Timun", "Terong"] },
-  { "id": 381, "words": ["Kubis", "Sawi"] },
-  { "id": 382, "words": ["Kacang Panjang", "Buncis"] },
-  { "id": 383, "words": ["Kangkung", "Genjer"] },
-  { "id": 384, "words": ["Melon", "Blewah"] },
-  { "id": 385, "words": ["Sirsak", "Srikaya"] },
-  { "id": 386, "words": ["Kedondong", "Jambu"] },
-  { "id": 387, "words": ["Nangka", "Cempedak"] },
-  { "id": 388, "words": ["Gula Aren", "Gula Pasir"] },
-  { "id": 389, "words": ["Tepung Terigu", "Tepung Kanji"] },
-  { "id": 390, "words": ["Santan", "Susu"] },
-  { "id": 391, "words": ["Minyak Sayur", "Minyak Zaitun"] },
-  { "id": 392, "words": ["Wajan", "Panci"] },
-  { "id": 393, "words": ["Oven", "Microwave"] },
-  { "id": 394, "words": ["Kulkas", "Freezer"] },
-  { "id": 395, "words": ["Blender", "Mixer"] },
-  { "id": 396, "words": ["Spatula", "Irus"] },
-  { "id": 397, "words": ["Talenan", "Pisau Daging"] },
-  { "id": 398, "words": ["Kompor", "Tungku"] },
-  { "id": 399, "words": ["Bara Api", "Arang"] },
-  { "id": 400, "words": ["Abu", "Debu"] },
-  { "id": 401, "words": ["Mata", "Hidung"] },
-  { "id": 402, "words": ["Telinga", "Mulut"] },
-  { "id": 403, "words": ["Gigi", "Lidah"] },
-  { "id": 404, "words": ["Jari", "Kuku"] },
-  { "id": 405, "words": ["Jantung", "Paru-paru"] },
-  { "id": 406, "words": ["Otak", "Saraf"] },
-  { "id": 407, "words": ["Darah", "Keringat"] },
-  { "id": 408, "words": ["Rambut", "Bulu"] },
-  { "id": 409, "words": ["Otot", "Tulang"] },
-  { "id": 410, "words": ["Kulit", "Daging"] },
-  { "id": 411, "words": ["Berlari", "Berjalan"] },
-  { "id": 412, "words": ["Melompat", "Meloncat"] },
-  { "id": 413, "words": ["Berenang", "Menyelam"] },
-  { "id": 414, "words": ["Menulis", "Mengetik"] },
-  { "id": 415, "words": ["Membaca", "Mengeja"] },
-  { "id": 416, "words": ["Mendengar", "Menyimak"] },
-  { "id": 417, "words": ["Melihat", "Menatap"] },
-  { "id": 418, "words": ["Melempar", "Menangkap"] },
-  { "id": 419, "words": ["Mendorong", "Menarik"] },
-  { "id": 420, "words": ["Memukul", "Menendang"] },
-  { "id": 421, "words": ["Detik", "Menit"] },
-  { "id": 422, "words": ["Jam", "Hari"] },
-  { "id": 423, "words": ["Minggu", "Bulan"] },
-  { "id": 424, "words": ["Tahun", "Abad"] },
-  { "id": 425, "words": ["Meter", "Kilometer"] },
-  { "id": 426, "words": ["Gram", "Kilogram"] },
-  { "id": 427, "words": ["Liter", "Mililiter"] },
-  { "id": 428, "words": ["Celcius", "Fahrenheit"] },
-  { "id": 429, "words": ["Rupiah", "Dolar"] },
-  { "id": 430, "words": ["Hektar", "Are"] },
-  { "id": 431, "words": ["Tiket", "Karcis"] },
-  { "id": 432, "words": ["Paspor", "Visa"] },
-  { "id": 433, "words": ["Koper", "Ransel"] },
-  { "id": 434, "words": ["Peta", "Kompas"] },
-  { "id": 435, "words": ["Rute", "Jadwal"] },
-  { "id": 436, "words": ["Bagasi", "Kabin"] },
-  { "id": 437, "words": ["Halte", "Stasiun"] },
-  { "id": 438, "words": ["Rel", "Gerbong"] },
-  { "id": 439, "words": ["Supir", "Kondektur"] },
-  { "id": 440, "words": ["Penumpang", "Masinis"] },
-  { "id": 441, "words": ["Karpet", "Permadani"] },
-  { "id": 442, "words": ["Taplak", "Kain"] },
-  { "id": 443, "words": ["Sprei", "Selimut"] },
-  { "id": 444, "words": ["Tirai", "Gorden"] },
-  { "id": 445, "words": ["Vas", "Pot"] },
-  { "id": 446, "words": ["Pigura", "Lukisan"] },
-  { "id": 447, "words": ["Patung", "Arca"] },
-  { "id": 448, "words": ["Lampu Hias", "Lampion"] },
-  { "id": 449, "words": ["Asbak", "Tempat Sampah"] },
-  { "id": 450, "words": ["Kalender", "Jam Weker"] },
-  { "id": 451, "words": ["Penghapus", "Tipe-X"] },
-  { "id": 452, "words": ["Spidol", "Kapur"] },
-  { "id": 453, "words": ["Penggaris", "Jangka"] },
-  { "id": 454, "words": ["Map", "Ordner"] },
-  { "id": 455, "words": ["Stempel", "Tinta"] },
-  { "id": 456, "words": ["Klip", "Staples"] },
-  { "id": 457, "words": ["Kertas HVS", "Kertas Folio"] },
-  { "id": 458, "words": ["Amplop", "Perangko"] },
-  { "id": 459, "words": ["Buku Tulis", "Binder"] },
-  { "id": 460, "words": ["Kalkulator", "Mesin Tik"] },
-  { "id": 461, "words": ["Rawa", "Gambut"] },
-  { "id": 462, "words": ["Gua", "Lembah"] },
-  { "id": 463, "words": ["Jurang", "Tebing"] },
-  { "id": 464, "words": ["Samudra", "Selat"] },
-  { "id": 465, "words": ["Tanjung", "Semenanjung"] },
-  { "id": 466, "words": ["Teluk", "Pantai"] },
-  { "id": 467, "words": ["Bukit", "Pegunungan"] },
-  { "id": 468, "words": ["Kawah", "Kaldera"] },
-  { "id": 469, "words": ["Mata Air", "Sumur"] },
-  { "id": 470, "words": ["Air Terjun", "Bendungan"] },
-  { "id": 471, "words": ["Lontong", "Ketupat"] },
-  { "id": 472, "words": ["Pempek", "Tekwan"] },
-  { "id": 473, "words": ["Siomay", "Batagor"] },
-  { "id": 474, "words": ["Opor", "Rendang"] },
-  { "id": 475, "words": ["Gudeg", "Krecek"] },
-  { "id": 476, "words": ["Soto Ayam", "Soto Daging"] },
-  { "id": 477, "words": ["Nasi Uduk", "Nasi Kuning"] },
-  { "id": 478, "words": ["Lemper", "Arem-arem"] },
-  { "id": 479, "words": ["Rujak", "Gado-gado"] },
-  { "id": 480, "words": ["Ketoprak", "Pecel"] },
-  { "id": 481, "words": ["Ikan Mas", "Ikan Lele"] },
-  { "id": 482, "words": ["Tenggiri", "Tongkol"] },
-  { "id": 483, "words": ["Kakap", "Gurame"] },
-  { "id": 484, "words": ["Nila", "Patin"] },
-  { "id": 485, "words": ["Bandeng", "Mujair"] },
-  { "id": 486, "words": ["Belut", "Sidat"] },
-  { "id": 487, "words": ["Kerang", "Tiram"] },
-  { "id": 488, "words": ["Teripang", "Bintang Laut"] },
-  { "id": 489, "words": ["Kuda Laut", "Ubur-ubur"] },
-  { "id": 490, "words": ["Teri", "Cumi"] },
-  { "id": 491, "words": ["Teh Manis", "Es Teh"] },
-  { "id": 492, "words": ["Kopi Susu", "Kopi Hitam"] },
-  { "id": 493, "words": ["Jus Apel", "Jus Jeruk"] },
-  { "id": 494, "words": ["Susu Cokelat", "Susu Vanilla"] },
-  { "id": 495, "words": ["Air Putih", "Air Mineral"] },
-  { "id": 496, "words": ["Sirup Melon", "Sirup Cocopandan"] },
-  { "id": 497, "words": ["Bir", "Anggur Merah"] },
-  { "id": 498, "words": ["Soda", "Limun"] },
-  { "id": 499, "words": ["Jamu", "Obat Herbal"] },
-  { "id": 500, "words": ["Bandrek", "Bajigur"] },
-  { "id": 501, "words": ["Kaos Kaki", "Sarung Tangan"] },
-  { "id": 502, "words": ["Syal", "Selendang"] },
-  { "id": 503, "words": ["Bros", "Peniti"] },
-  { "id": 504, "words": ["Gesper", "Sabuk"] },
-  { "id": 505, "words": ["Kacamata Hitam", "Kacamata Minus"] },
-  { "id": 506, "words": ["Cincin Kawin", "Cincin Tunangan"] },
-  { "id": 507, "words": ["Mahkota", "Tiara"] },
-  { "id": 508, "words": ["Helm Full Face", "Helm Half Face"] },
-  { "id": 509, "words": ["Kupluk", "Topi Pantai"] },
-  { "id": 510, "words": ["Sandal Jepit", "Sandal Gunung"] },
-  { "id": 511, "words": ["Sampo", "Kondisioner"] },
-  { "id": 512, "words": ["Sabun Cair", "Sabun Batang"] },
-  { "id": 513, "words": ["Sikat WC", "Pel Lantai"] },
-  { "id": 514, "words": ["Gayung", "Ember"] },
-  { "id": 515, "words": ["Bak Mandi", "Shower"] },
-  { "id": 516, "words": ["Tisu Basah", "Tisu Kering"] },
-  { "id": 517, "words": ["Cotton Bud", "Pembersih Telinga"] },
-  { "id": 518, "words": ["Gunting Kuku", "Kikir Kuku"] },
-  { "id": 519, "words": ["Pembalut", "Popok"] },
-  { "id": 520, "words": ["Spons Mandi", "Batu Pumis"] },
-  { "id": 521, "words": ["Boneka", "Robot-robotan"] },
-  { "id": 522, "words": ["Layang-layang", "Gasing"] },
-  { "id": 523, "words": ["Kelereng", "Bekel"] },
-  { "id": 524, "words": ["Yoyo", "Kendama"] },
-  { "id": 525, "words": ["Puzzle", "Lego"] },
-  { "id": 526, "words": ["Konsol Game", "PC Gaming"] },
-  { "id": 527, "words": ["Joystick", "Gamepad"] },
-  { "id": 528, "words": ["Kartu Pokemon", "Kartu Yu-Gi-Oh"] },
-  { "id": 529, "words": ["Uno", "Monopoly"] },
-  { "id": 530, "words": ["Rubik", "Tamagotchi"] },
-  { "id": 531, "words": ["Dangdut", "Koplo"] },
-  { "id": 532, "words": ["Pop", "Rock"] },
-  { "id": 533, "words": ["Jazz", "Blues"] },
-  { "id": 534, "words": ["Klasik", "Seriosa"] },
-  { "id": 535, "words": ["Rap", "Hip-hop"] },
-  { "id": 536, "words": ["Kaset", "CD"] },
-  { "id": 537, "words": ["Piringan Hitam", "Kaset Pita"] },
-  { "id": 539, "words": ["Speaker", "Earphone"] },
-  { "id": 540, "words": ["Mikrofon", "Megafon"] },
-  { "id": 541, "words": ["Kabut", "Embun"] },
-  { "id": 542, "words": ["Gerimis", "Hujan Deras"] },
-  { "id": 543, "words": ["Petir", "Kilat"] },
-  { "id": 544, "words": ["Pelangi", "Aurora"] },
-  { "id": 545, "words": ["Gerhana Matahari", "Gerhana Bulan"] },
-  { "id": 546, "words": ["Bintang Jatuh", "Komet"] },
-  { "id": 547, "words": ["Angin Puting Beliung", "Tornado"] },
-  { "id": 548, "words": ["Kemarau Panjang", "Pemanasan Global"] },
-  { "id": 549, "words": ["Polusi Udara", "Asap Knalpot"] },
-  { "id": 550, "words": ["Cuaca Cerah", "Cuaca Mendung"] },
-  { "id": 551, "words": ["Mahasiswa", "Pelajar"] },
-  { "id": 552, "words": ["Rektor", "Dekan"] },
-  { "id": 553, "words": ["Fakultas", "Jurusan"] },
-  { "id": 554, "words": ["Semester", "SKS"] },
-  { "id": 555, "words": ["Praktikum", "Teori"] },
-  { "id": 556, "words": ["Laboran", "Asisten Dosen"] },
-  { "id": 557, "words": ["Jaringan", "Server"] },
-  { "id": 558, "words": ["Router", "Modem"] },
-  { "id": 573, "words": ["Candi", "Prasasti"] },
-  { "id": 574, "words": ["Keraton", "Istana"] },
-  { "id": 575, "words": ["Batik", "Kebaya"] },
-  { "id": 576, "words": ["Wayang", "Kuda Lumping"] },
-  { "id": 577, "words": ["Gamelan", "Angklung"] },
-  { "id": 578, "words": ["Keris", "Rencong"] },
-  { "id": 579, "words": ["Pendekar", "Jawara"] },
-  { "id": 580, "words": ["Pencak Silat", "Karate"] },
-  { "id": 581, "words": ["Tinju", "Gulat"] },
-  { "id": 582, "words": ["Panahan", "Menembak"] },
-  { "id": 583, "words": ["Senam", "Yoga"] },
-  { "id": 584, "words": ["Lari Gawang", "Lari Estafet"] },
-  { "id": 585, "words": ["Lempar Lembing", "Tolak Peluru"] },
-  { "id": 586, "words": ["Lompat Jauh", "Lompat Tinggi"] },
-  { "id": 587, "words": ["Raket Nyamuk", "Obat Nyamuk"] },
-  { "id": 588, "words": ["Kasur Lipat", "Tikar"] },
-  { "id": 589, "words": ["Karung Goni", "Plastik Sampah"] },
-  { "id": 590, "words": ["Sapu Lidi", "Sapu Ijuk"] },
-  { "id": 591, "words": ["Pengki", "Serokan"] },
-  { "id": 592, "words": ["Kemoceng", "Lap Kain"] },
-  { "id": 593, "words": ["Setrika", "Mesin Cuci"] },
-  { "id": 594, "words": ["Jemuran", "Gantungan Baju"] },
-  { "id": 595, "words": ["Peniti", "Jarum Pentul"] },
-  { "id": 596, "words": ["Benang", "Tali"] },
-  { "id": 597, "words": ["Kancing", "Ritsleting"] },
-  { "id": 598, "words": ["Mesin Jahit", "Jarum Tangan"] },
-  { "id": 599, "words": ["Helm Proyek", "Topi Koboi"] },
-  { "id": 600, "words": ["Sepatu Kets", "Sepatu Pantofel"] },
-  { "id": 601, "words": ["Sandal Kulit", "Sandal Karet"] },
-  { "id": 602, "words": ["Jaket Kulit", "Jaket Denim"] },
-  { "id": 603, "words": ["Kemeja Flanel", "Kemeja Polos"] },
-  { "id": 604, "words": ["Celana Jeans", "Celana Bahan"] },
-  { "id": 605, "words": ["Rok Rempel", "Rok Mini"] },
-  { "id": 606, "words": ["Gaun Pengantin", "Kebaya Modern"] },
-  { "id": 607, "words": ["Daster", "Piama"] },
-  { "id": 608, "words": ["Kaos Dalam", "Singlet"] },
-  { "id": 609, "words": ["Celana Dalam", "Boxer"] },
-  { "id": 610, "words": ["Bra", "Korset"] },
-  { "id": 611, "words": ["Cincin Emas", "Cincin Berlian"] },
-  { "id": 612, "words": ["Gelang Kaki", "Jam Tangan Pintar"] },
-  { "id": 613, "words": ["Kalung Mutiara", "Liontin"] },
-  { "id": 614, "words": ["Brosur", "Pamflet"] },
-  { "id": 615, "words": ["Spanduk", "Baliho"] },
-  { "id": 616, "words": ["Poster", "Stiker"] },
-  { "id": 617, "words": ["Kartu Nama", "ID Card"] },
-  { "id": 618, "words": ["Pas Foto", "Foto Keluarga"] },
-  { "id": 619, "words": ["Album Foto", "Bingkai"] },
-  { "id": 620, "words": ["Kamera DSLR", "Kamera Mirrorless"] },
-  { "id": 621, "words": ["Lensa", "Tripod"] },
-  { "id": 622, "words": ["Flash", "Reflektor"] },
-  { "id": 623, "words": ["Drone", "Helikopter RC"] },
-  { "id": 624, "words": ["Baterai AA", "Baterai AAA"] },
-  { "id": 625, "words": ["Powerbank", "Charger"] },
-  { "id": 626, "words": ["Kabel USB", "Kabel HDMI"] },
-  { "id": 627, "words": ["Layar Sentuh", "Keyboard Mekanik"] },
-  { "id": 628, "words": ["Mousepad", "Wrist Rest"] },
-  { "id": 629, "words": ["Headphone", "TWS"] },
-  { "id": 630, "words": ["Mikrofon", "Stand Mic"] },
-  { "id": 631, "words": ["Proyektor", "Layar Tancap"] },
-  { "id": 632, "words": ["Bioskop", "Home Theater"] },
-  { "id": 633, "words": ["Tiket Konser", "Tiket Pesawat"] },
-  { "id": 634, "words": ["KTP", "SIM"] },
-  { "id": 635, "words": ["Akta Kelahiran", "Kartu Keluarga"] },
-  { "id": 636, "words": ["Sertifikat Tanah", "BPKB"] },
-  { "id": 637, "words": ["STNK", "Plat Nomor"] },
-  { "id": 638, "words": ["Kunci Motor", "Kunci Mobil"] },
-  { "id": 639, "words": ["Setir Mobil", "Stang Motor"] },
-  { "id": 640, "words": ["Rem Cakram", "Rem Tromol"] },
-  { "id": 641, "words": ["Knalpot", "Spion"] },
-  { "id": 642, "words": ["Jok Motor", "Bagasi Mobil"] },
-  { "id": 643, "words": ["Bensin", "Solar"] },
-  { "id": 644, "words": ["Pertamax", "Pertalite"] },
-  { "id": 645, "words": ["Oli Mesin", "Minyak Rem"] },
-  { "id": 646, "words": ["Ban Dalam", "Ban Tubeless"] },
-  { "id": 647, "words": ["Velg Racing", "Jari-jari"] },
-  { "id": 648, "words": ["Helm SNI", "Helm Bogo"] },
-  { "id": 649, "words": ["Jaket Touring", "Jas Hujan Ponco"] },
-  { "id": 650, "words": ["Lampu Sein", "Lampu Rem"] },
-  { "id": 651, "words": ["Klakson", "Sirine"] },
-  { "id": 652, "words": ["Speedometer", "Tachometer"] },
-  { "id": 653, "words": ["Pedal Gas", "Pedal Kopling"] },
-  { "id": 654, "words": ["Gigi Persneling", "Tuas Rem"] },
-  { "id": 655, "words": ["Wiper", "Kaca Film"] },
-  { "id": 656, "words": ["Sabuk Pengaman", "Airbag"] },
-  { "id": 657, "words": ["Dongkrak", "Kunci Pas"] },
-  { "id": 658, "words": ["Obeng", "Tang"] },
-  { "id": 659, "words": ["Palu", "Godam"] },
-  { "id": 660, "words": ["Gergaji Mesin", "Gergaji Kayu"] },
-  { "id": 661, "words": ["Bor Listrik", "Gerinda"] },
-  { "id": 662, "words": ["Meteran", "Waterpas"] },
-  { "id": 663, "words": ["Kuas Cat", "Roll Cat"] },
-  { "id": 664, "words": ["Cat Tembok", "Cat Kayu"] },
-  { "id": 665, "words": ["Thinner", "Vernis"] },
-  { "id": 666, "words": ["Amplas", "Dempul"] },
-  { "id": 667, "words": ["Batu Bata Merah", "Batako"] },
-  { "id": 668, "words": ["Genteng", "Asbes"] },
-  { "id": 669, "words": ["Seng", "Baja Ringan"] },
-  { "id": 670, "words": ["Plafon", "Gipsum"] },
-  { "id": 671, "words": ["Kusen", "Jendela Kaca"] },
-  { "id": 672, "words": ["Pintu Kayu", "Pintu Besi"] },
-  { "id": 673, "words": ["Gembok", "Kunci Padlock"] },
-  { "id": 674, "words": ["Engsel", "Slot Pintu"] },
-  { "id": 675, "words": ["Keramik", "Marmer"] },
-  { "id": 676, "words": ["Granit", "Batu Alam"] },
-  { "id": 677, "words": ["Karpet Bulu", "Tikar Anyaman"] },
-  { "id": 678, "words": ["Kasur Busa", "Springbed"] },
-  { "id": 679, "words": ["Meja Belajar", "Meja Makan"] },
-  { "id": 680, "words": ["Kursi Kantor", "Kursi Goyang"] },
-  { "id": 681, "words": ["Lemari Pakaian", "Rak Buku"] },
-  { "id": 682, "words": ["Laci", "Brankas"] },
-  { "id": 683, "words": ["Kulkas Mini", "Showcase"] },
-  { "id": 684, "words": ["Rice Cooker", "Panci Presto"] },
-  { "id": 685, "words": ["Teflon", "Penggorengan"] },
-  { "id": 686, "words": ["Sodet", "Spatula"] },
-  { "id": 687, "words": ["Sendok Sayur", "Garpu Daging"] },
-  { "id": 688, "words": ["Piring Kaca", "Mangkok Plastik"] },
-  { "id": 689, "words": ["Gelas Bening", "Cangkir Kopi"] },
-  { "id": 690, "words": ["Sedotan Plastik", "Sedotan Bambu"] },
-  { "id": 691, "words": ["Botol Minum", "Termos"] },
-  { "id": 692, "words": ["Galon Air", "Teko"] },
-  { "id": 693, "words": ["Saringan Kopi", "Saringan Teh"] },
-  { "id": 694, "words": ["Nampan", "Baki"] },
-  { "id": 695, "words": ["Serbet", "Celemek"] },
-  { "id": 696, "words": ["Talenan Kayu", "Talenan Plastik"] },
-  { "id": 697, "words": ["Pisau Dapur", "Golok"] },
-  { "id": 698, "words": ["Ulekan", "Cobek"] },
-  { "id": 699, "words": ["Kunci Jawaban", "Kisi-kisi"] },
-  { "id": 700, "words": ["Buku Panduan", "Kamus"] },
-  { "id": 716, "words": ["Matahari Terbit", "Matahari Terbenam"] },
-  { "id": 717, "words": ["Jam Pasir", "Stopwatch"] },
-  { "id": 718, "words": ["Kalender Masehi", "Kalender Hijriah"] },
-  { "id": 719, "words": ["Bumi", "Mars"] },
-  { "id": 720, "words": ["Teropong", "Binokular"] },
-  { "id": 721, "words": ["Anggar", "Kendo"] },
-  { "id": 722, "words": ["Selancar", "Ski Air"] },
-  { "id": 723, "words": ["Maraton", "Lari Sprint"] },
-  { "id": 724, "words": ["Emas", "Platinum"] },
-  { "id": 725, "words": ["Tembaga", "Perunggu"] },
-  { "id": 726, "words": ["Safir", "Zamrud"] },
-  { "id": 727, "words": ["Berlian", "Mutiara"] },
-  { "id": 728, "words": ["Gitaris", "Vokalis"] },
-  { "id": 729, "words": ["Drummer", "Bassist"] },
-  { "id": 730, "words": ["Konser", "Festival"] },
-  { "id": 731, "words": ["Tiket", "Gelang Lanyard"] },
-  { "id": 732, "words": ["Panggung", "Tribun"] },
-  { "id": 733, "words": ["Sinetron", "FTV"] },
-  { "id": 734, "words": ["Iklan", "Trailer"] },
-  { "id": 735, "words": ["Sutradara", "Produser"] },
-  { "id": 736, "words": ["Aktor", "Aktris"] },
-  { "id": 737, "words": ["Naskah", "Skenario"] },
-  { "id": 738, "words": ["Make-up Artist", "Stylist"] },
-  { "id": 739, "words": ["Kamera Video", "Camcorder"] },
-  { "id": 740, "words": ["Mikrofon Jepit", "Shotgun Mic"] },
-  { "id": 741, "words": ["Radio", "Podcast"] },
-  { "id": 742, "words": ["Penyiar", "Host"] },
-  { "id": 743, "words": ["Berita", "Dokumenter"] },
-  { "id": 744, "words": ["Komedi", "Tragedi"] },
-  { "id": 745, "words": ["Horor", "Thriller"] },
-  { "id": 746, "words": ["Film Aksi", "Film Petualangan"] },
-  { "id": 747, "words": ["Fiksi Ilmiah", "Fantasi"] },
-  { "id": 748, "words": ["Dongeng", "Fabel"] },
-  { "id": 749, "words": ["Majalah", "Jurnal"] },
-  { "id": 750, "words": ["Artikel", "Esai"] },
-  { "id": 751, "words": ["Paragraf", "Kalimat"] },
-  { "id": 752, "words": ["Huruf", "Angka"] },
-  { "id": 753, "words": ["Koma", "Titik"] },
-  { "id": 754, "words": ["Tanda Tanya", "Tanda Seru"] },
-  { "id": 755, "words": ["Tanda Kutip", "Tanda Kurung"] },
-  { "id": 756, "words": ["Kalkulus", "Aljabar"] },
-  { "id": 757, "words": ["Geometri", "Trigonometri"] },
-  { "id": 758, "words": ["Fisika", "Kimia"] },
-  { "id": 759, "words": ["Biologi", "Anatomi"] },
-  { "id": 760, "words": ["Geografi", "Sejarah"] },
-  { "id": 761, "words": ["Sosiologi", "Ekonomi"] },
-  { "id": 762, "words": ["Akuntansi", "Manajemen"] },
-  { "id": 763, "words": ["Pemasaran", "Penjualan"] },
-  { "id": 764, "words": ["Laba", "Rugi"] },
-  { "id": 765, "words": ["Manajemen Aset", "Liabilitas"] },
-  { "id": 766, "words": ["Modal", "Bunga Bank"] },
-  { "id": 767, "words": ["Inflasi", "Deflasi"] },
-  { "id": 768, "words": ["Ekspor", "Impor"] },
-  { "id": 769, "words": ["Pajak", "Cukai"] },
-  { "id": 770, "words": ["Kuitansi", "Nota"] },
-  { "id": 771, "words": ["Faktur", "Invoice"] },
-  { "id": 772, "words": ["Cek", "Bilyet Giro"] },
-  { "id": 773, "words": ["Mesin ATM", "Teller Bank"] },
-  { "id": 774, "words": ["Brankas", "Peti Besi"] },
-  { "id": 775, "words": ["Dompet Digital", "E-Money"] },
-  { "id": 776, "words": ["Barcode", "QR Code"] },
-  { "id": 777, "words": ["Kasir", "Mesin EDC"] },
-  { "id": 778, "words": ["Troli", "Keranjang Belanja"] },
-  { "id": 779, "words": ["Rak", "Etalase"] },
-  { "id": 780, "words": ["Gudang", "Pabrik"] },
-  { "id": 781, "words": ["Mandor", "Buruh"] },
-  { "id": 782, "words": ["Mesin Diesel", "Traktor"] },
-  { "id": 783, "words": ["Truk Gandeng", "Truk Tronton"] },
-  { "id": 784, "words": ["Kontainer", "Peti Kemas"] },
-  { "id": 785, "words": ["Pelabuhan", "Dermaga"] },
-  { "id": 786, "words": ["Kapal Pesiar", "Kapal Feri"] },
-  { "id": 787, "words": ["Jangkar", "Pelampung"] },
-  { "id": 788, "words": ["Mercusuar", "Menara Pandang"] },
-  { "id": 789, "words": ["Kompas Navigasi", "GPS"] },
-  { "id": 790, "words": ["Radar", "Sonar"] },
-  { "id": 791, "words": ["Terpedo", "Ranjau Laut"] },
-  { "id": 792, "words": ["Kapal Selam", "Kapal Induk"] },
-  { "id": 793, "words": ["Pesawat Tempur", "Pesawat Komersial"] },
-  { "id": 794, "words": ["Helikopter", "Pesawat Drone"] },
-  { "id": 795, "words": ["Balon Udara", "Gantole"] },
-  { "id": 796, "words": ["Parasut", "Terjun Payung"] },
-  { "id": 797, "words": ["Sayap", "Baling-baling"] },
-  { "id": 798, "words": ["Kokpit", "Kabin Pesawat"] },
-  { "id": 799, "words": ["Sabuk Pengaman", "Masker Oksigen"] },
-  { "id": 800, "words": ["Tiket Boarding", "Boarding Pass"] },
-  { "id": 801, "words": ["Koper Baju", "Tas Jinjing"] },
-  { "id": 802, "words": ["SKCK", "Surat Keterangan Sehat"] },
-  { "id": 803, "words": ["Stetoskop", "Tensimeter"] },
-  { "id": 804, "words": ["Termometer", "Oximeter"] },
-  { "id": 805, "words": ["Jarum Suntik", "Selang Infus"] },
-  { "id": 806, "words": ["Resep Dokter", "Surat Rujukan"] },
-  { "id": 807, "words": ["Apoteker", "Bidan"] },
-  { "id": 808, "words": ["Klinik Bersalin", "Ruang UGD"] },
-  { "id": 809, "words": ["Rawat Inap", "Rawat Jalan"] },
-  { "id": 810, "words": ["Asuransi Kesehatan", "BPJS"] },
-  { "id": 811, "words": ["Kursi Roda", "Tongkat Kruk"] },
-  { "id": 812, "words": ["Perban", "Plester Luka"] },
-  { "id": 813, "words": ["Kapas", "Kasa Steril"] },
-  { "id": 814, "words": ["Alkohol Tetes", "Antiseptik"] },
-  { "id": 815, "words": ["Obat Sirup", "Obat Kapsul"] },
-  { "id": 816, "words": ["Vitamin C", "Suplemen"] },
-  { "id": 817, "words": ["Apel Merah", "Pir Hijau"] },
-  { "id": 818, "words": ["Jeruk Nipis", "Lemon"] },
-  { "id": 819, "words": ["Tomat Ceri", "Ceri Merah"] },
-  { "id": 820, "words": ["Stroberi", "Blueberry"] },
-  { "id": 821, "words": ["Blewah", "Timun Suri"] },
-  { "id": 822, "words": ["Buah Duku", "Buah Langsat"] },
-  { "id": 823, "words": ["Kelengkeng", "Leci"] },
-  { "id": 824, "words": ["Kurma Arab", "Buah Zaitun"] },
-  { "id": 825, "words": ["Kismis Manis", "Kacang Almond"] },
-  { "id": 826, "words": ["Kacang Polong", "Kacang Kedelai"] },
-  { "id": 827, "words": ["Tahu Bumbu", "Tempe Bacem"] },
-  { "id": 828, "words": ["Ikan Asin", "Ikan Teri"] },
-  { "id": 829, "words": ["Udang Rebon", "Udang Ebi"] },
-  { "id": 830, "words": ["Kerang Dara", "Kerang Hijau"] },
-  { "id": 831, "words": ["Kepiting", "Rajungan"] },
-  { "id": 832, "words": ["Lobster", "Udang Galah"] },
-  { "id": 833, "words": ["Terumbu Karang", "Anemon Laut"] },
-  { "id": 834, "words": ["Rumput Laut", "Lumut Hijau"] },
-  { "id": 835, "words": ["Siput", "Keong"] },
-  { "id": 836, "words": ["Bekicot", "Lintah"] },
-  { "id": 837, "words": ["Cacing Tanah", "Ulat Bulu"] },
-  { "id": 838, "words": ["Kupu-kupu Malam", "Capung"] },
-  { "id": 839, "words": ["Lebah Madu", "Tawon"] },
-  { "id": 840, "words": ["Kecoak", "Jangkrik"] },
-  { "id": 841, "words": ["Belalang", "Kunang-kunang"] },
-  { "id": 842, "words": ["Semut Merah", "Semut Hitam"] },
-  { "id": 843, "words": ["Lipan", "Kelabang"] },
-  { "id": 844, "words": ["Kadal Berbisa", "Tokek"] },
-  { "id": 845, "words": ["Cicak Dinding", "Iguana"] },
-  { "id": 846, "words": ["Ular Sawah", "Ular Kobra"] },
-  { "id": 847, "words": ["Biawak", "Komodo"] },
-  { "id": 848, "words": ["Burung Unta", "Burung Merak"] },
-  { "id": 849, "words": ["Ayam Jago", "Ayam Betina"] },
-  { "id": 850, "words": ["Angsa Putih", "Kalkun"] },
-  { "id": 861, "words": ["Pisang Goreng", "Bakwan"] },
-  { "id": 862, "words": ["Tahu Isi", "Mendoan"] },
-  { "id": 863, "words": ["Es Cendol", "Es Dawet"] },
-  { "id": 864, "words": ["Kue Lapis", "Kue Pukis"] },
-  { "id": 865, "words": ["Bubur Kacang Hijau", "Kolak"] },
-  { "id": 866, "words": ["Nasi Liwet", "Nasi Uduk"] },
-  { "id": 867, "words": ["Ayam Bakar", "Ayam Penyet"] },
-  { "id": 868, "words": ["Sambal Terasi", "Sambal Matah"] },
-  { "id": 869, "words": ["Kecap Manis", "Kecap Asin"] },
-  { "id": 870, "words": ["Saus Sambal", "Saus Tomat"] },
-  { "id": 871, "words": ["Garam Dapur", "Kaldu Jamur"] },
-  { "id": 872, "words": ["Bawang Bombay", "Daun Bawang"] },
-  { "id": 873, "words": ["Seledri", "Kemangi"] },
-  { "id": 874, "words": ["Cengkeh", "Kayu Manis"] },
-  { "id": 875, "words": ["Biji Pala", "Kapulaga"] },
-  { "id": 876, "words": ["Ketumbar", "Lada Hitam"] },
-  { "id": 877, "words": ["Tepung Beras", "Tepung Maizena"] },
-  { "id": 878, "words": ["Minyak Goreng", "Mentega"] },
-  { "id": 879, "words": ["Keju Cheddar", "Keju Mozzarella"] },
-  { "id": 880, "words": ["Susu Kental Manis", "Krimer"] },
-  { "id": 881, "words": ["Kopi Bubuk", "Teh Celup"] },
-  { "id": 882, "words": ["Gula Batu", "Gula Merah"] },
-  { "id": 883, "words": ["Permen Karet", "Permen Lolipop"] },
-  { "id": 884, "words": ["Cokelat Batang", "Cokelat Bubuk"] },
-  { "id": 885, "words": ["Es Serut", "Es Balok"] },
-  { "id": 886, "words": ["Puding", "Agar-agar"] },
-  { "id": 887, "words": ["Biskuit", "Wafer"] },
-  { "id": 888, "words": ["Kacang Garuda", "Kacang Dua Kelinci"] },
-  { "id": 889, "words": ["Kuaci Bunga Matahari", "Kuaci Semangka"] },
-  { "id": 890, "words": ["Keripik Singkong", "Keripik Pisang"] },
-  { "id": 891, "words": ["Makaroni Pedas", "Basreng"] },
-  { "id": 892, "words": ["Lumpia", "Risol"] },
-  { "id": 893, "words": ["Pastel", "Kroket"] },
-  { "id": 894, "words": ["Onde-onde", "Kue Sus"] },
-  { "id": 895, "words": ["Kue Cubit", "Pancong"] },
-  { "id": 896, "words": ["Martabak Manis", "Martabak Telur"] },
-  { "id": 897, "words": ["Kebab Turki", "Burger Sapi"] },
-  { "id": 898, "words": ["Hotdog", "Sandwich"] },
-  { "id": 899, "words": ["Pizza Margerita", "Pizza Pepperoni"] },
-  { "id": 900, "words": ["Spaghetti Bolognese", "Carbonara"] },
-  { "id": 901, "words": ["Sushi Roll", "Sashimi"] },
-  { "id": 902, "words": ["Ramen Kuah", "Udon Goreng"] },
-  { "id": 903, "words": ["Dimsum", "Siomay Bandung"] },
-  { "id": 904, "words": ["Batagor Kuah", "Pempek Kapal Selam"] },
-  { "id": 905, "words": ["Mie Aceh", "Mie Celor"] },
-  { "id": 906, "words": ["Soto Betawi", "Soto Lamongan"] },
-  { "id": 907, "words": ["Gudeg Jogja", "Rawon Nasi"] },
-  { "id": 908, "words": ["Rendang Sapi", "Dendeng Balado"] },
-  { "id": 909, "words": ["Sate Padang", "Sate Lilit"] },
-  { "id": 910, "words": ["Babi Guling", "Ayam Betutu"] },
-  { "id": 911, "words": ["Bebek Sinjay", "Puyuh Goreng"] },
-  { "id": 912, "words": ["Burung Dara", "Kalkun Panggang"] },
-  { "id": 913, "words": ["Ikan Gurame Bakar", "Nila Goreng"] },
-  { "id": 914, "words": ["Lele Penyet", "Pecel Lele"] },
-  { "id": 915, "words": ["Bandeng Presto", "Tongkol Balado"] },
-  { "id": 916, "words": ["Teri Kacang", "Cumi Asin"] },
-  { "id": 917, "words": ["Udang Saus Tiram", "Kepiting Saus Padang"] },
-  { "id": 918, "words": ["Kerang Dara Rebus", "Kerang Hijau Saus"] },
-  { "id": 919, "words": ["Lobster Bakar", "Rajungan Rebus"] },
-  { "id": 920, "words": ["Tiramisu", "Matcha"] },
-  { "id": 921, "words": ["Red Velvet", "Black Forest"] },
-  { "id": 922, "words": ["Cheesecake", "Brownies"] },
-  { "id": 923, "words": ["Pancake", "Waffle"] },
-  { "id": 924, "words": ["Crepes", "Leker"] },
-  { "id": 925, "words": ["Es Krim Cokelat", "Es Krim Stroberi"] },
-  { "id": 926, "words": ["Sorbet", "Gelato"] },
-  { "id": 927, "words": ["Jus Alpukat", "Jus Mangga"] },
-  { "id": 928, "words": ["Es Kelapa Muda", "Es Jeruk"] },
-  { "id": 929, "words": ["Teh Tarik", "Kopi Kenangan"] },
-  { "id": 930, "words": ["Boba Milk Tea", "Thai Tea"] },
-  { "id": 931, "words": ["Cincau Hitam", "Selasih"] },
-  { "id": 932, "words": ["Sirup Marjan", "Sirup ABC"] },
-  { "id": 933, "words": ["Air Galon", "Air Kemasan"] },
-  { "id": 934, "words": ["Botol Plastik", "Termos Kopi"] },
-  { "id": 935, "words": ["Mangkuk Ayam Jago", "Piring Rotan"] },
-  { "id": 936, "words": ["Sendok Plastik", "Garpu Kayu"] },
-  { "id": 937, "words": ["Sumpit Bambu", "Sumpit Besi"] },
-  { "id": 938, "words": ["Tusuk Sate", "Tusuk Gigi"] },
-  { "id": 939, "words": ["Pisau Roti", "Pisau Cukur"] },
-  { "id": 940, "words": ["Talenan Bulat", "Talenan Kotak"] },
-  { "id": 941, "words": ["Cobek Batu", "Ulekan Kayu"] },
-  { "id": 942, "words": ["Panci Anti Lengket", "Wajan Baja"] },
-  { "id": 943, "words": ["Spatula Silikon", "Sodet Kayu"] },
-  { "id": 944, "words": ["Centong Nasi", "Irus Sayur"] },
-  { "id": 945, "words": ["Saringan Teh", "Saringan Santan"] },
-  { "id": 946, "words": ["Parutan Keju", "Parutan Kelapa"] },
-  { "id": 947, "words": ["Kulkas 2 Pintu", "Freezer Box"] },
-  { "id": 948, "words": ["Oven Listrik", "Oven Gas"] },
-  { "id": 949, "words": ["Microwave", "Air Fryer"] },
-  { "id": 950, "words": ["Blender Kaca", "Chopper Daging"] },
-  { "id": 951, "words": ["Mixer Roti", "Pemanggang Roti"] },
-  { "id": 952, "words": ["Teko Air", "Dispenser Galon"] },
-  { "id": 953, "words": ["Mesin Kopi", "Grinder Kopi"] },
-  { "id": 954, "words": ["Timbangan Dapur", "Gelas Takar"] },
-  { "id": 955, "words": ["Kotak Makan", "Rantang Susun"] },
-  { "id": 956, "words": ["Bungkus Nasi", "Daun Pisang"] },
-  { "id": 957, "words": ["Kertas Minyak", "Plastik Klip"] },
-  { "id": 958, "words": ["Karet Gelang", "Tali Rafia"] },
-  { "id": 959, "words": ["Kresek Hitam", "Kantong Belanja"] },
-  { "id": 960, "words": ["Kain Serbet", "Tisu Dapur"] },
-  { "id": 961, "words": ["Spons Cuci", "Sabun Colek"] },
-  { "id": 962, "words": ["Sikat Botol", "Sikat Panci"] },
-  { "id": 963, "words": ["Pembersih Lantai", "Pewangi Pakaian"] },
-  { "id": 964, "words": ["Jemuran Handuk", "Hanger Besi"] },
-  { "id": 965, "words": ["Jepit Jemuran", "Keranjang Baju"] },
-  { "id": 966, "words": ["Setrika Uap", "Papan Setrika"] },
-  { "id": 967, "words": ["Mesin Cuci 2 Tabung", "Mesin Cuci Front Load"] },
-  { "id": 968, "words": ["Gembok Motor", "Kunci Ganda"] },
-  { "id": 969, "words": ["Jas Hujan Kelelawar", "Mantel Hujan"] },
-  { "id": 970, "words": ["Helm SNI", "Kaca Helm"] },
-  { "id": 971, "words": ["Kunci L", "Kunci Inggris"] },
-  { "id": 972, "words": ["Tang Buaya", "Obeng Plus"] },
-  { "id": 973, "words": ["Palu Besi", "Palu Karet"] },
-  { "id": 974, "words": ["Gergaji Besi", "Gergaji Multiplek"] },
-  { "id": 975, "words": ["Amplas Halus", "Amplas Kasar"] },
-  { "id": 976, "words": ["Paku Payung", "Paku Beton"] },
-  { "id": 977, "words": ["Lem Tembak", "Lem Korea"] },
-  { "id": 978, "words": ["Selotip Bening", "Lakban Hitam"] },
-  { "id": 979, "words": ["Double Tape", "Masking Tape"] },
-  { "id": 980, "words": ["Kardus Indomie", "Kardus Sepatu"] },
-  { "id": 981, "words": ["Bubble Wrap", "Styrofoam"] },
-  { "id": 982, "words": ["Busa Ati", "Kain Flanel"] },
-  { "id": 983, "words": ["Kertas Kado", "Pita Ribbon"] },
-  { "id": 984, "words": ["Gunting Kertas", "Cutter Besar"] },
-  { "id": 985, "words": ["Isi Cutter", "Isi Staples"] },
-  { "id": 986, "words": ["Penggaris Besi", "Penggaris Segitiga"] },
-  { "id": 987, "words": ["Busur Derajat", "Jangka Sorong"] },
-  { "id": 988, "words": ["Buku Gambar", "Buku Tulis Kotak"] },
-  { "id": 989, "words": ["Kertas Origami", "Kertas Manila"] },
-  { "id": 990, "words": ["Spidol Papan Tulis", "Spidol Permanen"] },
-  { "id": 991, "words": ["Penghapus Papan", "Tinta Printer"] },
-  { "id": 992, "words": ["Kuas Lukis", "Palet Warna"] },
-  { "id": 993, "words": ["Crayon", "Pensil Warna"] },
-  { "id": 994, "words": ["Gitar Kapok", "Gitar Yamaha"] },
-  { "id": 995, "words": ["Senar Gitar", "Pick Gitar"] },
-  { "id": 996, "words": ["Drum Stick", "Pedal Drum"] },
-  { "id": 997, "words": ["Suling Bambu", "Pianika"] },
-  { "id": 998, "words": ["Keyboard Casio", "Synthesizer"] },
-  { "id": 999, "words": ["Lampu Neon", "Lampu Bohlam"] },
-  { "id": 1000, "words": ["Stop Kontak", "Kabel Roll"] }
+  {
+    "id": 1,
+    "words": [
+      "Nasi Goreng",
+      "Mie Goreng"
+    ]
+  },
+  {
+    "id": 2,
+    "words": [
+      "Soto",
+      "Sup"
+    ]
+  },
+  {
+    "id": 3,
+    "words": [
+      "Sate",
+      "Gule"
+    ]
+  },
+  {
+    "id": 4,
+    "words": [
+      "Bakso",
+      "Mie Ayam"
+    ]
+  },
+  {
+    "id": 5,
+    "words": [
+      "Kopi",
+      "Teh"
+    ]
+  },
+  {
+    "id": 6,
+    "words": [
+      "Susu",
+      "Yogurt"
+    ]
+  },
+  {
+    "id": 7,
+    "words": [
+      "Es Krim",
+      "Gelato"
+    ]
+  },
+  {
+    "id": 8,
+    "words": [
+      "Pizza",
+      "Burger"
+    ]
+  },
+  {
+    "id": 9,
+    "words": [
+      "Tahu",
+      "Tempe"
+    ]
+  },
+  {
+    "id": 10,
+    "words": [
+      "Kecap",
+      "Saus Sambal"
+    ]
+  },
+  {
+    "id": 11,
+    "words": [
+      "Garam",
+      "Gula"
+    ]
+  },
+  {
+    "id": 12,
+    "words": [
+      "Apel",
+      "Jeruk"
+    ]
+  },
+  {
+    "id": 13,
+    "words": [
+      "Mangga",
+      "Nanas"
+    ]
+  },
+  {
+    "id": 14,
+    "words": [
+      "Semangka",
+      "Melon"
+    ]
+  },
+  {
+    "id": 15,
+    "words": [
+      "Durian",
+      "Nangka"
+    ]
+  },
+  {
+    "id": 16,
+    "words": [
+      "Cokelat",
+      "Keju"
+    ]
+  },
+  {
+    "id": 17,
+    "words": [
+      "Biskuit",
+      "Roti"
+    ]
+  },
+  {
+    "id": 18,
+    "words": [
+      "Kue Tar",
+      "Brownies"
+    ]
+  },
+  {
+    "id": 19,
+    "words": [
+      "Martabak",
+      "Terang Bulan"
+    ]
+  },
+  {
+    "id": 20,
+    "words": [
+      "Pempek",
+      "Siomay"
+    ]
+  },
+  {
+    "id": 21,
+    "words": [
+      "Batagor",
+      "Cilok"
+    ]
+  },
+  {
+    "id": 22,
+    "words": [
+      "Kerupuk",
+      "Keripik"
+    ]
+  },
+  {
+    "id": 23,
+    "words": [
+      "Kucing",
+      "Anjing"
+    ]
+  },
+  {
+    "id": 24,
+    "words": [
+      "Singa",
+      "Harimau"
+    ]
+  },
+  {
+    "id": 25,
+    "words": [
+      "Ayam",
+      "Bebek"
+    ]
+  },
+  {
+    "id": 26,
+    "words": [
+      "Sapi",
+      "Kambing"
+    ]
+  },
+  {
+    "id": 27,
+    "words": [
+      "Ikan",
+      "Udang"
+    ]
+  },
+  {
+    "id": 28,
+    "words": [
+      "Cumi",
+      "Kepiting"
+    ]
+  },
+  {
+    "id": 29,
+    "words": [
+      "Nyamuk",
+      "Lalat"
+    ]
+  },
+  {
+    "id": 30,
+    "words": [
+      "Semut",
+      "Rayap"
+    ]
+  },
+  {
+    "id": 31,
+    "words": [
+      "Kupu-kupu",
+      "Lebah"
+    ]
+  },
+  {
+    "id": 32,
+    "words": [
+      "Ular",
+      "Cacing"
+    ]
+  },
+  {
+    "id": 33,
+    "words": [
+      "Burung Hantu",
+      "Kelelawar"
+    ]
+  },
+  {
+    "id": 34,
+    "words": [
+      "Katak",
+      "Kodok"
+    ]
+  },
+  {
+    "id": 35,
+    "words": [
+      "Kuda",
+      "Keledai"
+    ]
+  },
+  {
+    "id": 36,
+    "words": [
+      "Buaya",
+      "Komodo"
+    ]
+  },
+  {
+    "id": 37,
+    "words": [
+      "Monyet",
+      "Orangutan"
+    ]
+  },
+  {
+    "id": 38,
+    "words": [
+      "Tikus",
+      "Kelinci"
+    ]
+  },
+  {
+    "id": 39,
+    "words": [
+      "Pensil",
+      "Pulpen"
+    ]
+  },
+  {
+    "id": 40,
+    "words": [
+      "Buku Tulis",
+      "Majalah"
+    ]
+  },
+  {
+    "id": 41,
+    "words": [
+      "Penghapus",
+      "Tip-X"
+    ]
+  },
+  {
+    "id": 42,
+    "words": [
+      "Penggaris",
+      "Jangka"
+    ]
+  },
+  {
+    "id": 43,
+    "words": [
+      "Tas",
+      "Koper"
+    ]
+  },
+  {
+    "id": 44,
+    "words": [
+      "Gelas",
+      "Cangkir"
+    ]
+  },
+  {
+    "id": 45,
+    "words": [
+      "Piring",
+      "Mangkok"
+    ]
+  },
+  {
+    "id": 46,
+    "words": [
+      "Sendok",
+      "Garpu"
+    ]
+  },
+  {
+    "id": 47,
+    "words": [
+      "Pisau",
+      "Gunting"
+    ]
+  },
+  {
+    "id": 48,
+    "words": [
+      "Sapu",
+      "Pel"
+    ]
+  },
+  {
+    "id": 49,
+    "words": [
+      "Ember",
+      "Gayung"
+    ]
+  },
+  {
+    "id": 50,
+    "words": [
+      "Sabun",
+      "Sampo"
+    ]
+  },
+  {
+    "id": 51,
+    "words": [
+      "Sikat Gigi",
+      "Pasta Gigi"
+    ]
+  },
+  {
+    "id": 52,
+    "words": [
+      "Handuk",
+      "Tisu"
+    ]
+  },
+  {
+    "id": 53,
+    "words": [
+      "Bantal",
+      "Guling"
+    ]
+  },
+  {
+    "id": 54,
+    "words": [
+      "Kasur",
+      "Sofa"
+    ]
+  },
+  {
+    "id": 55,
+    "words": [
+      "Meja",
+      "Kursi"
+    ]
+  },
+  {
+    "id": 56,
+    "words": [
+      "Lemari",
+      "Rak Buku"
+    ]
+  },
+  {
+    "id": 57,
+    "words": [
+      "Pintu",
+      "Jendela"
+    ]
+  },
+  {
+    "id": 58,
+    "words": [
+      "Kunci",
+      "Gembok"
+    ]
+  },
+  {
+    "id": 59,
+    "words": [
+      "Jam Tangan",
+      "Jam Dinding"
+    ]
+  },
+  {
+    "id": 60,
+    "words": [
+      "Kipas Angin",
+      "AC"
+    ]
+  },
+  {
+    "id": 61,
+    "words": [
+      "Televisi",
+      "Proyektor"
+    ]
+  },
+  {
+    "id": 62,
+    "words": [
+      "Kamera",
+      "Handphone"
+    ]
+  },
+  {
+    "id": 63,
+    "words": [
+      "Laptop",
+      "Komputer"
+    ]
+  },
+  {
+    "id": 64,
+    "words": [
+      "Payung",
+      "Jas Hujan"
+    ]
+  },
+  {
+    "id": 65,
+    "words": [
+      "Kacamata",
+      "Lensa Kontak"
+    ]
+  },
+  {
+    "id": 66,
+    "words": [
+      "Sepatu",
+      "Sandal"
+    ]
+  },
+  {
+    "id": 67,
+    "words": [
+      "Helm",
+      "Topi"
+    ]
+  },
+  {
+    "id": 68,
+    "words": [
+      "Kemeja",
+      "Kaos"
+    ]
+  },
+  {
+    "id": 69,
+    "words": [
+      "Celana Panjang",
+      "Celana Pendek"
+    ]
+  },
+  {
+    "id": 70,
+    "words": [
+      "Jaket",
+      "Sweater"
+    ]
+  },
+  {
+    "id": 71,
+    "words": [
+      "Dasi",
+      "Sabuk"
+    ]
+  },
+  {
+    "id": 72,
+    "words": [
+      "Dompet",
+      "Tas Ransel"
+    ]
+  },
+  {
+    "id": 73,
+    "words": [
+      "Cermin",
+      "Kaca"
+    ]
+  },
+  {
+    "id": 74,
+    "words": [
+      "Sisir",
+      "Jepit Rambut"
+    ]
+  },
+  {
+    "id": 75,
+    "words": [
+      "Spidol",
+      "Krayon"
+    ]
+  },
+  {
+    "id": 76,
+    "words": [
+      "Paku",
+      "Baut"
+    ]
+  },
+  {
+    "id": 77,
+    "words": [
+      "Palu",
+      "Tang"
+    ]
+  },
+  {
+    "id": 78,
+    "words": [
+      "Obeng",
+      "Kunci Inggris"
+    ]
+  },
+  {
+    "id": 79,
+    "words": [
+      "Gunung",
+      "Bukit"
+    ]
+  },
+  {
+    "id": 80,
+    "words": [
+      "Pantai",
+      "Laut"
+    ]
+  },
+  {
+    "id": 81,
+    "words": [
+      "Sungai",
+      "Danau"
+    ]
+  },
+  {
+    "id": 82,
+    "words": [
+      "Kolam Renang",
+      "Sumur"
+    ]
+  },
+  {
+    "id": 83,
+    "words": [
+      "Hutan",
+      "Taman"
+    ]
+  },
+  {
+    "id": 84,
+    "words": [
+      "Jalan Raya",
+      "Gang"
+    ]
+  },
+  {
+    "id": 85,
+    "words": [
+      "Pasar",
+      "Supermarket"
+    ]
+  },
+  {
+    "id": 86,
+    "words": [
+      "Sekolah",
+      "Kampus"
+    ]
+  },
+  {
+    "id": 87,
+    "words": [
+      "Rumah Sakit",
+      "Puskesmas"
+    ]
+  },
+  {
+    "id": 88,
+    "words": [
+      "Apotek",
+      "Klinik"
+    ]
+  },
+  {
+    "id": 89,
+    "words": [
+      "Masjid",
+      "Musholla"
+    ]
+  },
+  {
+    "id": 90,
+    "words": [
+      "Gereja",
+      "Kapel"
+    ]
+  },
+  {
+    "id": 91,
+    "words": [
+      "Bandara",
+      "Stasiun"
+    ]
+  },
+  {
+    "id": 92,
+    "words": [
+      "Terminal",
+      "Halte"
+    ]
+  },
+  {
+    "id": 93,
+    "words": [
+      "Hotel",
+      "Villa"
+    ]
+  },
+  {
+    "id": 94,
+    "words": [
+      "Restoran",
+      "Warung"
+    ]
+  },
+  {
+    "id": 95,
+    "words": [
+      "Bioskop",
+      "Teater"
+    ]
+  },
+  {
+    "id": 96,
+    "words": [
+      "Museum",
+      "Galeri"
+    ]
+  },
+  {
+    "id": 97,
+    "words": [
+      "Hujan",
+      "Salju"
+    ]
+  },
+  {
+    "id": 98,
+    "words": [
+      "Matahari",
+      "Bulan"
+    ]
+  },
+  {
+    "id": 99,
+    "words": [
+      "Bintang",
+      "Planet"
+    ]
+  },
+  {
+    "id": 100,
+    "words": [
+      "Awan",
+      "Kabut"
+    ]
+  },
+  {
+    "id": 101,
+    "words": [
+      "Bumi",
+      "Mars"
+    ]
+  },
+  {
+    "id": 102,
+    "words": [
+      "Dokter",
+      "Perawat"
+    ]
+  },
+  {
+    "id": 103,
+    "words": [
+      "Guru",
+      "Dosen"
+    ]
+  },
+  {
+    "id": 104,
+    "words": [
+      "Polisi",
+      "Satpam"
+    ]
+  },
+  {
+    "id": 105,
+    "words": [
+      "Tentara",
+      "Polisi"
+    ]
+  },
+  {
+    "id": 106,
+    "words": [
+      "Pilot",
+      "Masinis"
+    ]
+  },
+  {
+    "id": 107,
+    "words": [
+      "Pramugari",
+      "Kondektur"
+    ]
+  },
+  {
+    "id": 108,
+    "words": [
+      "Penyanyi",
+      "Penari"
+    ]
+  },
+  {
+    "id": 109,
+    "words": [
+      "Aktor",
+      "Sutradara"
+    ]
+  },
+  {
+    "id": 110,
+    "words": [
+      "Presiden",
+      "Gubernur"
+    ]
+  },
+  {
+    "id": 111,
+    "words": [
+      "Walikota",
+      "Bupati"
+    ]
+  },
+  {
+    "id": 112,
+    "words": [
+      "Petani",
+      "Nelayan"
+    ]
+  },
+  {
+    "id": 113,
+    "words": [
+      "Koki",
+      "Pelayan"
+    ]
+  },
+  {
+    "id": 114,
+    "words": [
+      "Kasir",
+      "Pramuniaga"
+    ]
+  },
+  {
+    "id": 115,
+    "words": [
+      "Arsitek",
+      "Insinyur"
+    ]
+  },
+  {
+    "id": 116,
+    "words": [
+      "Pengacara",
+      "Hakim"
+    ]
+  },
+  {
+    "id": 117,
+    "words": [
+      "Jurnalis",
+      "Fotografer"
+    ]
+  },
+  {
+    "id": 118,
+    "words": [
+      "Atlet",
+      "Pelatih"
+    ]
+  },
+  {
+    "id": 119,
+    "words": [
+      "Mahasiswa",
+      "Siswa"
+    ]
+  },
+  {
+    "id": 120,
+    "words": [
+      "Ayah",
+      "Ibu"
+    ]
+  },
+  {
+    "id": 121,
+    "words": [
+      "Kakek",
+      "Nenek"
+    ]
+  },
+  {
+    "id": 122,
+    "words": [
+      "Mobil",
+      "Motor"
+    ]
+  },
+  {
+    "id": 123,
+    "words": [
+      "Sepeda",
+      "Skuter"
+    ]
+  },
+  {
+    "id": 124,
+    "words": [
+      "Bus",
+      "Minibus"
+    ]
+  },
+  {
+    "id": 125,
+    "words": [
+      "Kereta Api",
+      "MRT"
+    ]
+  },
+  {
+    "id": 126,
+    "words": [
+      "Pesawat",
+      "Helikopter"
+    ]
+  },
+  {
+    "id": 127,
+    "words": [
+      "Kapal",
+      "Perahu"
+    ]
+  },
+  {
+    "id": 128,
+    "words": [
+      "Taksi",
+      "Angkot"
+    ]
+  },
+  {
+    "id": 129,
+    "words": [
+      "Truk",
+      "Mobil Box"
+    ]
+  },
+  {
+    "id": 130,
+    "words": [
+      "Ambulans",
+      "Mobil Pemadam"
+    ]
+  },
+  {
+    "id": 131,
+    "words": [
+      "KTP",
+      "SIM"
+    ]
+  },
+  {
+    "id": 132,
+    "words": [
+      "Paspor",
+      "Visa"
+    ]
+  },
+  {
+    "id": 133,
+    "words": [
+      "Facebook",
+      "Instagram"
+    ]
+  },
+  {
+    "id": 134,
+    "words": [
+      "WhatsApp",
+      "Telegram"
+    ]
+  },
+  {
+    "id": 135,
+    "words": [
+      "YouTube",
+      "TikTok"
+    ]
+  },
+  {
+    "id": 136,
+    "words": [
+      "Google",
+      "Yahoo"
+    ]
+  },
+  {
+    "id": 137,
+    "words": [
+      "Gojek",
+      "Grab"
+    ]
+  },
+  {
+    "id": 138,
+    "words": [
+      "Bulan",
+      "Bintang"
+    ]
+  },
+  {
+    "id": 139,
+    "words": [
+      "Gitar",
+      "Bass"
+    ]
+  },
+  {
+    "id": 140,
+    "words": [
+      "Pisang",
+      "Pepaya"
+    ]
+  },
+  {
+    "id": 141,
+    "words": [
+      "Buku",
+      "Majalah"
+    ]
+  },
+  {
+    "id": 142,
+    "words": [
+      "Baju",
+      "Kemeja"
+    ]
+  },
+  {
+    "id": 143,
+    "words": [
+      "Kacamata",
+      "Softlens"
+    ]
+  },
+  {
+    "id": 144,
+    "words": [
+      "Kereta",
+      "Bus"
+    ]
+  },
+  {
+    "id": 145,
+    "words": [
+      "Awan",
+      "Langit"
+    ]
+  },
+  {
+    "id": 146,
+    "words": [
+      "Pohon",
+      "Bunga"
+    ]
+  },
+  {
+    "id": 147,
+    "words": [
+      "Daun",
+      "Ranting"
+    ]
+  },
+  {
+    "id": 148,
+    "words": [
+      "Batu",
+      "Pasir"
+    ]
+  },
+  {
+    "id": 149,
+    "words": [
+      "Angin",
+      "Badai"
+    ]
+  },
+  {
+    "id": 150,
+    "words": [
+      "Siang",
+      "Malam"
+    ]
+  },
+  {
+    "id": 151,
+    "words": [
+      "Merah",
+      "Kuning"
+    ]
+  },
+  {
+    "id": 152,
+    "words": [
+      "Biru",
+      "Hijau"
+    ]
+  },
+  {
+    "id": 153,
+    "words": [
+      "Lada",
+      "Ketumbar"
+    ]
+  },
+  {
+    "id": 154,
+    "words": [
+      "Bawang Merah",
+      "Bawang Putih"
+    ]
+  },
+  {
+    "id": 155,
+    "words": [
+      "Kecap",
+      "Saus"
+    ]
+  },
+  {
+    "id": 156,
+    "words": [
+      "Sambal",
+      "Tomat"
+    ]
+  },
+  {
+    "id": 157,
+    "words": [
+      "Sate",
+      "Gulai"
+    ]
+  },
+  {
+    "id": 158,
+    "words": [
+      "Roti",
+      "Kue"
+    ]
+  },
+  {
+    "id": 159,
+    "words": [
+      "Anggur",
+      "Stroberi"
+    ]
+  },
+  {
+    "id": 160,
+    "words": [
+      "Lemari",
+      "Laci"
+    ]
+  },
+  {
+    "id": 161,
+    "words": [
+      "Lantai",
+      "Atap"
+    ]
+  },
+  {
+    "id": 162,
+    "words": [
+      "Tembok",
+      "Pagar"
+    ]
+  },
+  {
+    "id": 163,
+    "words": [
+      "Sabun",
+      "Shampoo"
+    ]
+  },
+  {
+    "id": 164,
+    "words": [
+      "Jaket",
+      "Jas"
+    ]
+  },
+  {
+    "id": 165,
+    "words": [
+      "Celana",
+      "Rok"
+    ]
+  },
+  {
+    "id": 166,
+    "words": [
+      "Uang",
+      "Kartu Kredit"
+    ]
+  },
+  {
+    "id": 167,
+    "words": [
+      "Kertas",
+      "Kardus"
+    ]
+  },
+  {
+    "id": 168,
+    "words": [
+      "Paku",
+      "Palu"
+    ]
+  },
+  {
+    "id": 169,
+    "words": [
+      "Gergaji",
+      "Kapak"
+    ]
+  },
+  {
+    "id": 170,
+    "words": [
+      "Lem",
+      "Selotip"
+    ]
+  },
+  {
+    "id": 171,
+    "words": [
+      "Karet",
+      "Plastik"
+    ]
+  },
+  {
+    "id": 172,
+    "words": [
+      "Kaca",
+      "Logam"
+    ]
+  },
+  {
+    "id": 173,
+    "words": [
+      "Emas",
+      "Perak"
+    ]
+  },
+  {
+    "id": 174,
+    "words": [
+      "Pilot",
+      "Pramugari"
+    ]
+  },
+  {
+    "id": 175,
+    "words": [
+      "Penyanyi",
+      "Aktor"
+    ]
+  },
+  {
+    "id": 176,
+    "words": [
+      "Pelukis",
+      "Penulis"
+    ]
+  },
+  {
+    "id": 177,
+    "words": [
+      "Macan",
+      "Cheetah"
+    ]
+  },
+  {
+    "id": 178,
+    "words": [
+      "Kura-kura",
+      "Penyu"
+    ]
+  },
+  {
+    "id": 179,
+    "words": [
+      "Kelinci",
+      "Marmut"
+    ]
+  },
+  {
+    "id": 180,
+    "words": [
+      "Kupu-kupu",
+      "Ngengat"
+    ]
+  },
+  {
+    "id": 181,
+    "words": [
+      "Laba-laba",
+      "Kalajengking"
+    ]
+  },
+  {
+    "id": 182,
+    "words": [
+      "Merpati",
+      "Gagak"
+    ]
+  },
+  {
+    "id": 183,
+    "words": [
+      "Elang",
+      "Rajawali"
+    ]
+  },
+  {
+    "id": 184,
+    "words": [
+      "Sapi",
+      "Kerbau"
+    ]
+  },
+  {
+    "id": 185,
+    "words": [
+      "Kambing",
+      "Domba"
+    ]
+  },
+  {
+    "id": 186,
+    "words": [
+      "Babi",
+      "Celeng"
+    ]
+  },
+  {
+    "id": 187,
+    "words": [
+      "Paus",
+      "Lumba-lumba"
+    ]
+  },
+  {
+    "id": 188,
+    "words": [
+      "Hiu",
+      "Pari"
+    ]
+  },
+  {
+    "id": 189,
+    "words": [
+      "Gurita",
+      "Cumi-cumi"
+    ]
+  },
+  {
+    "id": 190,
+    "words": [
+      "Buaya",
+      "Aligator"
+    ]
+  },
+  {
+    "id": 191,
+    "words": [
+      "Kadal",
+      "Bunglon"
+    ]
+  },
+  {
+    "id": 192,
+    "words": [
+      "Manggis",
+      "Rambutan"
+    ]
+  },
+  {
+    "id": 193,
+    "words": [
+      "Salak",
+      "Duku"
+    ]
+  },
+  {
+    "id": 194,
+    "words": [
+      "Kelapa",
+      "Aren"
+    ]
+  },
+  {
+    "id": 195,
+    "words": [
+      "Singkong",
+      "Ubi"
+    ]
+  },
+  {
+    "id": 196,
+    "words": [
+      "Kentang",
+      "Wortel"
+    ]
+  },
+  {
+    "id": 197,
+    "words": [
+      "Bayam",
+      "Kangkung"
+    ]
+  },
+  {
+    "id": 198,
+    "words": [
+      "Brokoli",
+      "Kembang Kol"
+    ]
+  },
+  {
+    "id": 199,
+    "words": [
+      "Jamur",
+      "Truffle"
+    ]
+  },
+  {
+    "id": 200,
+    "words": [
+      "Beras",
+      "Gandum"
+    ]
+  },
+  {
+    "id": 201,
+    "words": [
+      "Jagung",
+      "Kedelai"
+    ]
+  },
+  {
+    "id": 202,
+    "words": [
+      "Kacang Tanah",
+      "Kacang Hijau"
+    ]
+  },
+  {
+    "id": 203,
+    "words": [
+      "Kuaci",
+      "Mede"
+    ]
+  },
+  {
+    "id": 204,
+    "words": [
+      "Kurma",
+      "Kismis"
+    ]
+  },
+  {
+    "id": 205,
+    "words": [
+      "Sirup",
+      "Madu"
+    ]
+  },
+  {
+    "id": 206,
+    "words": [
+      "Mentega",
+      "Margarin"
+    ]
+  },
+  {
+    "id": 207,
+    "words": [
+      "Sosis",
+      "Nugget"
+    ]
+  },
+  {
+    "id": 208,
+    "words": [
+      "Kebab",
+      "Shawarma"
+    ]
+  },
+  {
+    "id": 209,
+    "words": [
+      "Sushi",
+      "Kimbap"
+    ]
+  },
+  {
+    "id": 210,
+    "words": [
+      "Ramen",
+      "Udon"
+    ]
+  },
+  {
+    "id": 211,
+    "words": [
+      "Spaghetti",
+      "Makaroni"
+    ]
+  },
+  {
+    "id": 212,
+    "words": [
+      "Bubur",
+      "Oatmeal"
+    ]
+  },
+  {
+    "id": 213,
+    "words": [
+      "Permen",
+      "Jeli"
+    ]
+  },
+  {
+    "id": 214,
+    "words": [
+      "Onde-onde",
+      "Klepon"
+    ]
+  },
+  {
+    "id": 215,
+    "words": [
+      "Batik",
+      "Tenun"
+    ]
+  },
+  {
+    "id": 216,
+    "words": [
+      "Kaos",
+      "Sweater"
+    ]
+  },
+  {
+    "id": 217,
+    "words": [
+      "Sarung",
+      "Sorban"
+    ]
+  },
+  {
+    "id": 218,
+    "words": [
+      "Kerudung",
+      "Peci"
+    ]
+  },
+  {
+    "id": 219,
+    "words": [
+      "Gelang",
+      "Kalung"
+    ]
+  },
+  {
+    "id": 220,
+    "words": [
+      "Cincin",
+      "Anting"
+    ]
+  },
+  {
+    "id": 221,
+    "words": [
+      "Pita",
+      "Jepit"
+    ]
+  },
+  {
+    "id": 222,
+    "words": [
+      "Make Up",
+      "Skincare"
+    ]
+  },
+  {
+    "id": 223,
+    "words": [
+      "Lipstik",
+      "Lip Balm"
+    ]
+  },
+  {
+    "id": 224,
+    "words": [
+      "Parfum",
+      "Deodoran"
+    ]
+  },
+  {
+    "id": 225,
+    "words": [
+      "Bedak",
+      "Foundation"
+    ]
+  },
+  {
+    "id": 226,
+    "words": [
+      "Sepatu Roda",
+      "Skateboard"
+    ]
+  },
+  {
+    "id": 227,
+    "words": [
+      "Raket",
+      "Tongkat Kasti"
+    ]
+  },
+  {
+    "id": 228,
+    "words": [
+      "Bola Basket",
+      "Bola Voli"
+    ]
+  },
+  {
+    "id": 229,
+    "words": [
+      "Biliar",
+      "Bowling"
+    ]
+  },
+  {
+    "id": 230,
+    "words": [
+      "Catur",
+      "Halma"
+    ]
+  },
+  {
+    "id": 231,
+    "words": [
+      "Kartu Remi",
+      "Domino"
+    ]
+  },
+  {
+    "id": 232,
+    "words": [
+      "Dadu",
+      "Koin"
+    ]
+  },
+  {
+    "id": 233,
+    "words": [
+      "Monopoli",
+      "Ular Tangga"
+    ]
+  },
+  {
+    "id": 234,
+    "words": [
+      "Gitar Akustik",
+      "Gitar Listrik"
+    ]
+  },
+  {
+    "id": 235,
+    "words": [
+      "Piano",
+      "Organ"
+    ]
+  },
+  {
+    "id": 236,
+    "words": [
+      "Drum",
+      "Perkusi"
+    ]
+  },
+  {
+    "id": 237,
+    "words": [
+      "Suling",
+      "Terompet"
+    ]
+  },
+  {
+    "id": 238,
+    "words": [
+      "Biola",
+      "Cello"
+    ]
+  },
+  {
+    "id": 239,
+    "words": [
+      "Rumah",
+      "Apartemen"
+    ]
+  },
+  {
+    "id": 240,
+    "words": [
+      "Hotel",
+      "Vila"
+    ]
+  },
+  {
+    "id": 241,
+    "words": [
+      "Tenda",
+      "Kabin"
+    ]
+  },
+  {
+    "id": 242,
+    "words": [
+      "Istana",
+      "Kastil"
+    ]
+  },
+  {
+    "id": 243,
+    "words": [
+      "Gedung",
+      "Menara"
+    ]
+  },
+  {
+    "id": 244,
+    "words": [
+      "Jembatan",
+      "Terowongan"
+    ]
+  },
+  {
+    "id": 245,
+    "words": [
+      "Jalan Raya",
+      "Jalan Tol"
+    ]
+  },
+  {
+    "id": 246,
+    "words": [
+      "Bandara",
+      "Pelabuhan"
+    ]
+  },
+  {
+    "id": 247,
+    "words": [
+      "Stasiun",
+      "Terminal"
+    ]
+  },
+  {
+    "id": 248,
+    "words": [
+      "Mall",
+      "Plaza"
+    ]
+  },
+  {
+    "id": 249,
+    "words": [
+      "Toko",
+      "Warung"
+    ]
+  },
+  {
+    "id": 250,
+    "words": [
+      "Kafe",
+      "Restoran"
+    ]
+  },
+  {
+    "id": 251,
+    "words": [
+      "Perpustakaan",
+      "Toko Buku"
+    ]
+  },
+  {
+    "id": 252,
+    "words": [
+      "Kebun Binatang",
+      "Safari"
+    ]
+  },
+  {
+    "id": 253,
+    "words": [
+      "Kolam Renang",
+      "Waterboom"
+    ]
+  },
+  {
+    "id": 254,
+    "words": [
+      "Masjid",
+      "Gereja"
+    ]
+  },
+  {
+    "id": 255,
+    "words": [
+      "Vihara",
+      "Pura"
+    ]
+  },
+  {
+    "id": 256,
+    "words": [
+      "Kuburan",
+      "Makam"
+    ]
+  },
+  {
+    "id": 257,
+    "words": [
+      "Penjara",
+      "Sel"
+    ]
+  },
+  {
+    "id": 258,
+    "words": [
+      "Kantor",
+      "Pabrik"
+    ]
+  },
+  {
+    "id": 259,
+    "words": [
+      "Gudang",
+      "Garasi"
+    ]
+  },
+  {
+    "id": 260,
+    "words": [
+      "Dapur",
+      "Ruang Makan"
+    ]
+  },
+  {
+    "id": 261,
+    "words": [
+      "Kamar Mandi",
+      "Toilet"
+    ]
+  },
+  {
+    "id": 262,
+    "words": [
+      "Balkon",
+      "Teras"
+    ]
+  },
+  {
+    "id": 263,
+    "words": [
+      "Kuli",
+      "Tukang"
+    ]
+  },
+  {
+    "id": 264,
+    "words": [
+      "Satpam",
+      "Hansip"
+    ]
+  },
+  {
+    "id": 265,
+    "words": [
+      "Supir",
+      "Masinis"
+    ]
+  },
+  {
+    "id": 266,
+    "words": [
+      "Nahkoda",
+      "Pelaut"
+    ]
+  },
+  {
+    "id": 267,
+    "words": [
+      "Kasir",
+      "Akuntan"
+    ]
+  },
+  {
+    "id": 268,
+    "words": [
+      "Direktur",
+      "Manajer"
+    ]
+  },
+  {
+    "id": 269,
+    "words": [
+      "Presiden",
+      "Menteri"
+    ]
+  },
+  {
+    "id": 270,
+    "words": [
+      "Gubernur",
+      "Bupati"
+    ]
+  },
+  {
+    "id": 271,
+    "words": [
+      "Raja",
+      "Pangeran"
+    ]
+  },
+  {
+    "id": 272,
+    "words": [
+      "Wartawan",
+      "Fotografer"
+    ]
+  },
+  {
+    "id": 273,
+    "words": [
+      "Programmer",
+      "Desainer"
+    ]
+  },
+  {
+    "id": 274,
+    "words": [
+      "Wasit",
+      "Komentator"
+    ]
+  },
+  {
+    "id": 275,
+    "words": [
+      "Tukang Cukur",
+      "Salon"
+    ]
+  },
+  {
+    "id": 276,
+    "words": [
+      "Penjahit",
+      "Desainer Baju"
+    ]
+  },
+  {
+    "id": 277,
+    "words": [
+      "Tractor",
+      "Buldoser"
+    ]
+  },
+  {
+    "id": 278,
+    "words": [
+      "Truk",
+      "Pick Up"
+    ]
+  },
+  {
+    "id": 279,
+    "words": [
+      "Becak",
+      "Bemo"
+    ]
+  },
+  {
+    "id": 280,
+    "words": [
+      "Kereta Gantung",
+      "Bianglala"
+    ]
+  },
+  {
+    "id": 281,
+    "words": [
+      "Rudal",
+      "Roket"
+    ]
+  },
+  {
+    "id": 282,
+    "words": [
+      "Senapan",
+      "Pistol"
+    ]
+  },
+  {
+    "id": 283,
+    "words": [
+      "Bom",
+      "Granat"
+    ]
+  },
+  {
+    "id": 284,
+    "words": [
+      "Pedang",
+      "Keris"
+    ]
+  },
+  {
+    "id": 285,
+    "words": [
+      "Tombak",
+      "Panah"
+    ]
+  },
+  {
+    "id": 286,
+    "words": [
+      "Perisai",
+      "Helm Baja"
+    ]
+  },
+  {
+    "id": 287,
+    "words": [
+      "Batu Bata",
+      "Semen"
+    ]
+  },
+  {
+    "id": 288,
+    "words": [
+      "Pasir",
+      "Kerikil"
+    ]
+  },
+  {
+    "id": 289,
+    "words": [
+      "Baterai",
+      "Aki"
+    ]
+  },
+  {
+    "id": 290,
+    "words": [
+      "Lampu",
+      "Senter"
+    ]
+  },
+  {
+    "id": 291,
+    "words": [
+      "Lilin",
+      "Obor"
+    ]
+  },
+  {
+    "id": 292,
+    "words": [
+      "Korek Api",
+      "Pemantik"
+    ]
+  },
+  {
+    "id": 293,
+    "words": [
+      "Kalkulator",
+      "Sempoa"
+    ]
+  },
+  {
+    "id": 294,
+    "words": [
+      "Proyektor",
+      "Layar"
+    ]
+  },
+  {
+    "id": 295,
+    "words": [
+      "Printer",
+      "Scanner"
+    ]
+  },
+  {
+    "id": 296,
+    "words": [
+      "Mouse",
+      "Keyboard"
+    ]
+  },
+  {
+    "id": 297,
+    "words": [
+      "Flashdisk",
+      "Hardisk"
+    ]
+  },
+  {
+    "id": 298,
+    "words": [
+      "Wi-Fi",
+      "Bluetooth"
+    ]
+  },
+  {
+    "id": 299,
+    "words": [
+      "Sinyal",
+      "Kuota"
+    ]
+  },
+  {
+    "id": 300,
+    "words": [
+      "Aplikasi",
+      "Website"
+    ]
+  },
+  {
+    "id": 301,
+    "words": [
+      "Server",
+      "Database"
+    ]
+  },
+  {
+    "id": 302,
+    "words": [
+      "Skripsi",
+      "Tesis"
+    ]
+  },
+  {
+    "id": 303,
+    "words": [
+      "Svelte",
+      "React"
+    ]
+  },
+  {
+    "id": 304,
+    "words": [
+      "Laravel",
+      "CodeIgniter"
+    ]
+  },
+  {
+    "id": 305,
+    "words": [
+      "Phishing",
+      "Spam"
+    ]
+  },
+  {
+    "id": 306,
+    "words": [
+      "Malware",
+      "Virus"
+    ]
+  },
+  {
+    "id": 307,
+    "words": [
+      "Hacker",
+      "Cracker"
+    ]
+  },
+  {
+    "id": 308,
+    "words": [
+      "Figma",
+      "Canva"
+    ]
+  },
+  {
+    "id": 309,
+    "words": [
+      "Roblox",
+      "Minecraft"
+    ]
+  },
+  {
+    "id": 310,
+    "words": [
+      "Live2D",
+      "Blender"
+    ]
+  },
+  {
+    "id": 311,
+    "words": [
+      "Animasi",
+      "Kartun"
+    ]
+  },
+  {
+    "id": 312,
+    "words": [
+      "Bandar Lampung",
+      "Palembang"
+    ]
+  },
+  {
+    "id": 313,
+    "words": [
+      "Kopi Lampung",
+      "Kopi Luwak"
+    ]
+  },
+  {
+    "id": 314,
+    "words": [
+      "Magang",
+      "Kerja Praktik"
+    ]
+  },
+  {
+    "id": 315,
+    "words": [
+      "Frontend",
+      "Backend"
+    ]
+  },
+  {
+    "id": 316,
+    "words": [
+      "SQL",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": 317,
+    "words": [
+      "Python",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": 318,
+    "words": [
+      "Algoritma",
+      "Logika"
+    ]
+  },
+  {
+    "id": 319,
+    "words": [
+      "Statistik",
+      "Matematika"
+    ]
+  },
+  {
+    "id": 320,
+    "words": [
+      "Data Science",
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": 321,
+    "words": [
+      "Bansos",
+      "Subsidi"
+    ]
+  },
+  {
+    "id": 322,
+    "words": [
+      "Getah",
+      "Resin"
+    ]
+  },
+  {
+    "id": 323,
+    "words": [
+      "Sistem Informasi",
+      "Teknik Informatika"
+    ]
+  },
+  {
+    "id": 324,
+    "words": [
+      "Gempa",
+      "Tsunami"
+    ]
+  },
+  {
+    "id": 325,
+    "words": [
+      "Banjir",
+      "Longsor"
+    ]
+  },
+  {
+    "id": 326,
+    "words": [
+      "Gunung Meletus",
+      "Badai"
+    ]
+  },
+  {
+    "id": 327,
+    "words": [
+      "Kemarau",
+      "Penghujan"
+    ]
+  },
+  {
+    "id": 328,
+    "words": [
+      "Surga",
+      "Neraka"
+    ]
+  },
+  {
+    "id": 329,
+    "words": [
+      "Malaikat",
+      "Iblis"
+    ]
+  },
+  {
+    "id": 330,
+    "words": [
+      "Pahlawan",
+      "Penjahat"
+    ]
+  },
+  {
+    "id": 331,
+    "words": [
+      "Ksatria",
+      "Samurai"
+    ]
+  },
+  {
+    "id": 332,
+    "words": [
+      "Ninja",
+      "Assassin"
+    ]
+  },
+  {
+    "id": 333,
+    "words": [
+      "Penyihir",
+      "Dukun"
+    ]
+  },
+  {
+    "id": 334,
+    "words": [
+      "Hantu",
+      "Monster"
+    ]
+  },
+  {
+    "id": 335,
+    "words": [
+      "Vampir",
+      "Zombi"
+    ]
+  },
+  {
+    "id": 336,
+    "words": [
+      "Alien",
+      "Mutan"
+    ]
+  },
+  {
+    "id": 337,
+    "words": [
+      "Robot",
+      "Cyborg"
+    ]
+  },
+  {
+    "id": 338,
+    "words": [
+      "Kloning",
+      "Kembar"
+    ]
+  },
+  {
+    "id": 339,
+    "words": [
+      "Bayangan",
+      "Siluet"
+    ]
+  },
+  {
+    "id": 340,
+    "words": [
+      "Mimpi",
+      "Khayalan"
+    ]
+  },
+  {
+    "id": 341,
+    "words": [
+      "Fakta",
+      "Mitos"
+    ]
+  },
+  {
+    "id": 342,
+    "words": [
+      "Sejarah",
+      "Legenda"
+    ]
+  },
+  {
+    "id": 343,
+    "words": [
+      "Novel",
+      "Komik"
+    ]
+  },
+  {
+    "id": 344,
+    "words": [
+      "Tabloid",
+      "Buletin"
+    ]
+  },
+  {
+    "id": 345,
+    "words": [
+      "Berita",
+      "Gosip"
+    ]
+  },
+  {
+    "id": 346,
+    "words": [
+      "Wawancara",
+      "Interogasi"
+    ]
+  },
+  {
+    "id": 347,
+    "words": [
+      "Diskusi",
+      "Debat"
+    ]
+  },
+  {
+    "id": 348,
+    "words": [
+      "Rapat",
+      "Seminar"
+    ]
+  },
+  {
+    "id": 349,
+    "words": [
+      "Presentasi",
+      "Pidato"
+    ]
+  },
+  {
+    "id": 350,
+    "words": [
+      "Ujian",
+      "Kuis"
+    ]
+  },
+  {
+    "id": 351,
+    "words": [
+      "Tugas",
+      "PR"
+    ]
+  },
+  {
+    "id": 352,
+    "words": [
+      "Ijazah",
+      "Sertifikat"
+    ]
+  },
+  {
+    "id": 353,
+    "words": [
+      "Medali",
+      "Piala"
+    ]
+  },
+  {
+    "id": 354,
+    "words": [
+      "Juara",
+      "Pemenang"
+    ]
+  },
+  {
+    "id": 355,
+    "words": [
+      "Hadiah",
+      "Kado"
+    ]
+  },
+  {
+    "id": 356,
+    "words": [
+      "Kejutan",
+      "Jebakan"
+    ]
+  },
+  {
+    "id": 357,
+    "words": [
+      "Rahasia",
+      "Misteri"
+    ]
+  },
+  {
+    "id": 358,
+    "words": [
+      "Teka-teki",
+      "Puzzle"
+    ]
+  },
+  {
+    "id": 359,
+    "words": [
+      "Password",
+      "PIN"
+    ]
+  },
+  {
+    "id": 360,
+    "words": [
+      "Gembok",
+      "Rantai"
+    ]
+  },
+  {
+    "id": 361,
+    "words": [
+      "Penjara",
+      "Kurungan"
+    ]
+  },
+  {
+    "id": 362,
+    "words": [
+      "Borgol",
+      "Tali"
+    ]
+  },
+  {
+    "id": 363,
+    "words": [
+      "Hakim",
+      "Jaksa"
+    ]
+  },
+  {
+    "id": 364,
+    "words": [
+      "Terdakwa",
+      "Saksi"
+    ]
+  },
+  {
+    "id": 365,
+    "words": [
+      "Bukti",
+      "Petunjuk"
+    ]
+  },
+  {
+    "id": 366,
+    "words": [
+      "Pengadilan",
+      "Mahkamah"
+    ]
+  },
+  {
+    "id": 367,
+    "words": [
+      "Hukum",
+      "Aturan"
+    ]
+  },
+  {
+    "id": 368,
+    "words": [
+      "Denda",
+      "Pajak"
+    ]
+  },
+  {
+    "id": 369,
+    "words": [
+      "Gaji",
+      "Bonus"
+    ]
+  },
+  {
+    "id": 370,
+    "words": [
+      "Hutang",
+      "Pinjaman"
+    ]
+  },
+  {
+    "id": 371,
+    "words": [
+      "Investasi",
+      "Tabungan"
+    ]
+  },
+  {
+    "id": 372,
+    "words": [
+      "Saham",
+      "Obligasi"
+    ]
+  },
+  {
+    "id": 373,
+    "words": [
+      "Bank",
+      "Koperasi"
+    ]
+  },
+  {
+    "id": 374,
+    "words": [
+      "Pasar",
+      "Bursa"
+    ]
+  },
+  {
+    "id": 375,
+    "words": [
+      "Pedagang",
+      "Pembeli"
+    ]
+  },
+  {
+    "id": 376,
+    "words": [
+      "Diskon",
+      "Promo"
+    ]
+  },
+  {
+    "id": 377,
+    "words": [
+      "Gratis",
+      "Murah"
+    ]
+  },
+  {
+    "id": 378,
+    "words": [
+      "Mahal",
+      "Mewah"
+    ]
+  },
+  {
+    "id": 379,
+    "words": [
+      "Kaya",
+      "Miskin"
+    ]
+  },
+  {
+    "id": 380,
+    "words": [
+      "Sukses",
+      "Gagal"
+    ]
+  },
+  {
+    "id": 381,
+    "words": [
+      "Bahagia",
+      "Sedih"
+    ]
+  },
+  {
+    "id": 382,
+    "words": [
+      "Tertawa",
+      "Menangis"
+    ]
+  },
+  {
+    "id": 383,
+    "words": [
+      "Marah",
+      "Kecewa"
+    ]
+  },
+  {
+    "id": 384,
+    "words": [
+      "Takut",
+      "Berani"
+    ]
+  },
+  {
+    "id": 385,
+    "words": [
+      "Cinta",
+      "Benci"
+    ]
+  },
+  {
+    "id": 386,
+    "words": [
+      "Sayang",
+      "Rindu"
+    ]
+  },
+  {
+    "id": 387,
+    "words": [
+      "Pelukan",
+      "Ciuman"
+    ]
+  },
+  {
+    "id": 388,
+    "words": [
+      "Pernikahan",
+      "Pertunangan"
+    ]
+  },
+  {
+    "id": 389,
+    "words": [
+      "Suami",
+      "Istri"
+    ]
+  },
+  {
+    "id": 390,
+    "words": [
+      "Anak",
+      "Cucu"
+    ]
+  },
+  {
+    "id": 391,
+    "words": [
+      "Paman",
+      "Bibi"
+    ]
+  },
+  {
+    "id": 392,
+    "words": [
+      "Kakak",
+      "Adik"
+    ]
+  },
+  {
+    "id": 393,
+    "words": [
+      "Keluarga",
+      "Kerabat"
+    ]
+  },
+  {
+    "id": 394,
+    "words": [
+      "Teman",
+      "Sahabat"
+    ]
+  },
+  {
+    "id": 395,
+    "words": [
+      "Musuh",
+      "Lawan"
+    ]
+  },
+  {
+    "id": 396,
+    "words": [
+      "Tamu",
+      "Tuan Rumah"
+    ]
+  },
+  {
+    "id": 397,
+    "words": [
+      "Tetangga",
+      "Warga"
+    ]
+  },
+  {
+    "id": 398,
+    "words": [
+      "Desa",
+      "Kota"
+    ]
+  },
+  {
+    "id": 399,
+    "words": [
+      "Provinsi",
+      "Negara"
+    ]
+  },
+  {
+    "id": 400,
+    "words": [
+      "Benua",
+      "Pulau"
+    ]
+  },
+  {
+    "id": 401,
+    "words": [
+      "Bumi",
+      "Planet"
+    ]
+  },
+  {
+    "id": 402,
+    "words": [
+      "Komet",
+      "Asteroid"
+    ]
+  },
+  {
+    "id": 403,
+    "words": [
+      "Galaksi",
+      "Tata Surya"
+    ]
+  },
+  {
+    "id": 404,
+    "words": [
+      "Kosmonot",
+      "Astronot"
+    ]
+  },
+  {
+    "id": 405,
+    "words": [
+      "Satelit",
+      "Teleskop"
+    ]
+  },
+  {
+    "id": 406,
+    "words": [
+      "Mikroskop",
+      "Kaca Pembesar"
+    ]
+  },
+  {
+    "id": 407,
+    "words": [
+      "Laboratorium",
+      "Eksperimen"
+    ]
+  },
+  {
+    "id": 408,
+    "words": [
+      "Ilmuwan",
+      "Peneliti"
+    ]
+  },
+  {
+    "id": 409,
+    "words": [
+      "Obat",
+      "Vitamin"
+    ]
+  },
+  {
+    "id": 410,
+    "words": [
+      "Suntikan",
+      "Infus"
+    ]
+  },
+  {
+    "id": 411,
+    "words": [
+      "Operasi",
+      "Bedah"
+    ]
+  },
+  {
+    "id": 412,
+    "words": [
+      "Luka",
+      "Berdarah"
+    ]
+  },
+  {
+    "id": 413,
+    "words": [
+      "Sakit",
+      "Sehat"
+    ]
+  },
+  {
+    "id": 414,
+    "words": [
+      "Kuman",
+      "Bakteri"
+    ]
+  },
+  {
+    "id": 415,
+    "words": [
+      "Masker",
+      "Sarung Tangan"
+    ]
+  },
+  {
+    "id": 416,
+    "words": [
+      "Sabun Mandi",
+      "Sabun Cuci"
+    ]
+  },
+  {
+    "id": 417,
+    "words": [
+      "Kemenyan",
+      "Dupa"
+    ]
+  },
+  {
+    "id": 418,
+    "words": [
+      "Asap",
+      "Debu"
+    ]
+  },
+  {
+    "id": 419,
+    "words": [
+      "Tanah",
+      "Lumpur"
+    ]
+  },
+  {
+    "id": 420,
+    "words": [
+      "Batu Karang",
+      "Terumbu Karang"
+    ]
+  },
+  {
+    "id": 421,
+    "words": [
+      "Rumput",
+      "Ilalang"
+    ]
+  },
+  {
+    "id": 422,
+    "words": [
+      "Bambu",
+      "Rotan"
+    ]
+  },
+  {
+    "id": 423,
+    "words": [
+      "Cengkeh",
+      "Pala"
+    ]
+  },
+  {
+    "id": 424,
+    "words": [
+      "Jahe",
+      "Kunyit"
+    ]
+  },
+  {
+    "id": 425,
+    "words": [
+      "Lengkuas",
+      "Kencur"
+    ]
+  },
+  {
+    "id": 426,
+    "words": [
+      "Serai",
+      "Daun Salam"
+    ]
+  },
+  {
+    "id": 427,
+    "words": [
+      "Cabai",
+      "Paprika"
+    ]
+  },
+  {
+    "id": 428,
+    "words": [
+      "Timun",
+      "Terong"
+    ]
+  },
+  {
+    "id": 429,
+    "words": [
+      "Kubis",
+      "Sawi"
+    ]
+  },
+  {
+    "id": 430,
+    "words": [
+      "Kacang Panjang",
+      "Buncis"
+    ]
+  },
+  {
+    "id": 431,
+    "words": [
+      "Kangkung",
+      "Genjer"
+    ]
+  },
+  {
+    "id": 432,
+    "words": [
+      "Melon",
+      "Blewah"
+    ]
+  },
+  {
+    "id": 433,
+    "words": [
+      "Sirsak",
+      "Srikaya"
+    ]
+  },
+  {
+    "id": 434,
+    "words": [
+      "Kedondong",
+      "Jambu"
+    ]
+  },
+  {
+    "id": 435,
+    "words": [
+      "Nangka",
+      "Cempedak"
+    ]
+  },
+  {
+    "id": 436,
+    "words": [
+      "Gula Aren",
+      "Gula Pasir"
+    ]
+  },
+  {
+    "id": 437,
+    "words": [
+      "Tepung Terigu",
+      "Tepung Kanji"
+    ]
+  },
+  {
+    "id": 438,
+    "words": [
+      "Santan",
+      "Susu"
+    ]
+  },
+  {
+    "id": 439,
+    "words": [
+      "Minyak Sayur",
+      "Minyak Zaitun"
+    ]
+  },
+  {
+    "id": 440,
+    "words": [
+      "Wajan",
+      "Panci"
+    ]
+  },
+  {
+    "id": 441,
+    "words": [
+      "Oven",
+      "Microwave"
+    ]
+  },
+  {
+    "id": 442,
+    "words": [
+      "Kulkas",
+      "Freezer"
+    ]
+  },
+  {
+    "id": 443,
+    "words": [
+      "Blender",
+      "Mixer"
+    ]
+  },
+  {
+    "id": 444,
+    "words": [
+      "Spatula",
+      "Irus"
+    ]
+  },
+  {
+    "id": 445,
+    "words": [
+      "Talenan",
+      "Pisau Daging"
+    ]
+  },
+  {
+    "id": 446,
+    "words": [
+      "Kompor",
+      "Tungku"
+    ]
+  },
+  {
+    "id": 447,
+    "words": [
+      "Bara Api",
+      "Arang"
+    ]
+  },
+  {
+    "id": 448,
+    "words": [
+      "Abu",
+      "Debu"
+    ]
+  },
+  {
+    "id": 449,
+    "words": [
+      "Mata",
+      "Hidung"
+    ]
+  },
+  {
+    "id": 450,
+    "words": [
+      "Telinga",
+      "Mulut"
+    ]
+  },
+  {
+    "id": 451,
+    "words": [
+      "Gigi",
+      "Lidah"
+    ]
+  },
+  {
+    "id": 452,
+    "words": [
+      "Jari",
+      "Kuku"
+    ]
+  },
+  {
+    "id": 453,
+    "words": [
+      "Jantung",
+      "Paru-paru"
+    ]
+  },
+  {
+    "id": 454,
+    "words": [
+      "Otak",
+      "Saraf"
+    ]
+  },
+  {
+    "id": 455,
+    "words": [
+      "Darah",
+      "Keringat"
+    ]
+  },
+  {
+    "id": 456,
+    "words": [
+      "Rambut",
+      "Bulu"
+    ]
+  },
+  {
+    "id": 457,
+    "words": [
+      "Otot",
+      "Tulang"
+    ]
+  },
+  {
+    "id": 458,
+    "words": [
+      "Kulit",
+      "Daging"
+    ]
+  },
+  {
+    "id": 459,
+    "words": [
+      "Berlari",
+      "Berjalan"
+    ]
+  },
+  {
+    "id": 460,
+    "words": [
+      "Melompat",
+      "Meloncat"
+    ]
+  },
+  {
+    "id": 461,
+    "words": [
+      "Berenang",
+      "Menyelam"
+    ]
+  },
+  {
+    "id": 462,
+    "words": [
+      "Menulis",
+      "Mengetik"
+    ]
+  },
+  {
+    "id": 463,
+    "words": [
+      "Membaca",
+      "Mengeja"
+    ]
+  },
+  {
+    "id": 464,
+    "words": [
+      "Mendengar",
+      "Menyimak"
+    ]
+  },
+  {
+    "id": 465,
+    "words": [
+      "Melihat",
+      "Menatap"
+    ]
+  },
+  {
+    "id": 466,
+    "words": [
+      "Melempar",
+      "Menangkap"
+    ]
+  },
+  {
+    "id": 467,
+    "words": [
+      "Mendorong",
+      "Menarik"
+    ]
+  },
+  {
+    "id": 468,
+    "words": [
+      "Memukul",
+      "Menendang"
+    ]
+  },
+  {
+    "id": 469,
+    "words": [
+      "Detik",
+      "Menit"
+    ]
+  },
+  {
+    "id": 470,
+    "words": [
+      "Jam",
+      "Hari"
+    ]
+  },
+  {
+    "id": 471,
+    "words": [
+      "Minggu",
+      "Bulan"
+    ]
+  },
+  {
+    "id": 472,
+    "words": [
+      "Tahun",
+      "Abad"
+    ]
+  },
+  {
+    "id": 473,
+    "words": [
+      "Meter",
+      "Kilometer"
+    ]
+  },
+  {
+    "id": 474,
+    "words": [
+      "Gram",
+      "Kilogram"
+    ]
+  },
+  {
+    "id": 475,
+    "words": [
+      "Liter",
+      "Mililiter"
+    ]
+  },
+  {
+    "id": 476,
+    "words": [
+      "Celcius",
+      "Fahrenheit"
+    ]
+  },
+  {
+    "id": 477,
+    "words": [
+      "Rupiah",
+      "Dolar"
+    ]
+  },
+  {
+    "id": 478,
+    "words": [
+      "Hektar",
+      "Are"
+    ]
+  },
+  {
+    "id": 479,
+    "words": [
+      "Tiket",
+      "Karcis"
+    ]
+  },
+  {
+    "id": 480,
+    "words": [
+      "Koper",
+      "Ransel"
+    ]
+  },
+  {
+    "id": 481,
+    "words": [
+      "Peta",
+      "Kompas"
+    ]
+  },
+  {
+    "id": 482,
+    "words": [
+      "Rute",
+      "Jadwal"
+    ]
+  },
+  {
+    "id": 483,
+    "words": [
+      "Bagasi",
+      "Kabin"
+    ]
+  },
+  {
+    "id": 484,
+    "words": [
+      "Halte",
+      "Stasiun"
+    ]
+  },
+  {
+    "id": 485,
+    "words": [
+      "Rel",
+      "Gerbong"
+    ]
+  },
+  {
+    "id": 486,
+    "words": [
+      "Supir",
+      "Kondektur"
+    ]
+  },
+  {
+    "id": 487,
+    "words": [
+      "Penumpang",
+      "Masinis"
+    ]
+  },
+  {
+    "id": 488,
+    "words": [
+      "Karpet",
+      "Permadani"
+    ]
+  },
+  {
+    "id": 489,
+    "words": [
+      "Taplak",
+      "Kain"
+    ]
+  },
+  {
+    "id": 490,
+    "words": [
+      "Sprei",
+      "Selimut"
+    ]
+  },
+  {
+    "id": 491,
+    "words": [
+      "Tirai",
+      "Gorden"
+    ]
+  },
+  {
+    "id": 492,
+    "words": [
+      "Vas",
+      "Pot"
+    ]
+  },
+  {
+    "id": 493,
+    "words": [
+      "Pigura",
+      "Lukisan"
+    ]
+  },
+  {
+    "id": 494,
+    "words": [
+      "Patung",
+      "Arca"
+    ]
+  },
+  {
+    "id": 495,
+    "words": [
+      "Lampu Hias",
+      "Lampion"
+    ]
+  },
+  {
+    "id": 496,
+    "words": [
+      "Asbak",
+      "Tempat Sampah"
+    ]
+  },
+  {
+    "id": 497,
+    "words": [
+      "Kalender",
+      "Jam Weker"
+    ]
+  },
+  {
+    "id": 498,
+    "words": [
+      "Penghapus",
+      "Tipe-X"
+    ]
+  },
+  {
+    "id": 499,
+    "words": [
+      "Spidol",
+      "Kapur"
+    ]
+  },
+  {
+    "id": 500,
+    "words": [
+      "Map",
+      "Ordner"
+    ]
+  },
+  {
+    "id": 501,
+    "words": [
+      "Stempel",
+      "Tinta"
+    ]
+  },
+  {
+    "id": 502,
+    "words": [
+      "Klip",
+      "Staples"
+    ]
+  },
+  {
+    "id": 503,
+    "words": [
+      "Kertas HVS",
+      "Kertas Folio"
+    ]
+  },
+  {
+    "id": 504,
+    "words": [
+      "Amplop",
+      "Perangko"
+    ]
+  },
+  {
+    "id": 505,
+    "words": [
+      "Buku Tulis",
+      "Binder"
+    ]
+  },
+  {
+    "id": 506,
+    "words": [
+      "Kalkulator",
+      "Mesin Tik"
+    ]
+  },
+  {
+    "id": 507,
+    "words": [
+      "Rawa",
+      "Gambut"
+    ]
+  },
+  {
+    "id": 508,
+    "words": [
+      "Gua",
+      "Lembah"
+    ]
+  },
+  {
+    "id": 509,
+    "words": [
+      "Jurang",
+      "Tebing"
+    ]
+  },
+  {
+    "id": 510,
+    "words": [
+      "Samudra",
+      "Selat"
+    ]
+  },
+  {
+    "id": 511,
+    "words": [
+      "Tanjung",
+      "Semenanjung"
+    ]
+  },
+  {
+    "id": 512,
+    "words": [
+      "Teluk",
+      "Pantai"
+    ]
+  },
+  {
+    "id": 513,
+    "words": [
+      "Bukit",
+      "Pegunungan"
+    ]
+  },
+  {
+    "id": 514,
+    "words": [
+      "Kawah",
+      "Kaldera"
+    ]
+  },
+  {
+    "id": 515,
+    "words": [
+      "Mata Air",
+      "Sumur"
+    ]
+  },
+  {
+    "id": 516,
+    "words": [
+      "Air Terjun",
+      "Bendungan"
+    ]
+  },
+  {
+    "id": 517,
+    "words": [
+      "Lontong",
+      "Ketupat"
+    ]
+  },
+  {
+    "id": 518,
+    "words": [
+      "Pempek",
+      "Tekwan"
+    ]
+  },
+  {
+    "id": 519,
+    "words": [
+      "Siomay",
+      "Batagor"
+    ]
+  },
+  {
+    "id": 520,
+    "words": [
+      "Opor",
+      "Rendang"
+    ]
+  },
+  {
+    "id": 521,
+    "words": [
+      "Gudeg",
+      "Krecek"
+    ]
+  },
+  {
+    "id": 522,
+    "words": [
+      "Soto Ayam",
+      "Soto Daging"
+    ]
+  },
+  {
+    "id": 523,
+    "words": [
+      "Nasi Uduk",
+      "Nasi Kuning"
+    ]
+  },
+  {
+    "id": 524,
+    "words": [
+      "Lemper",
+      "Arem-arem"
+    ]
+  },
+  {
+    "id": 525,
+    "words": [
+      "Rujak",
+      "Gado-gado"
+    ]
+  },
+  {
+    "id": 526,
+    "words": [
+      "Ketoprak",
+      "Pecel"
+    ]
+  },
+  {
+    "id": 527,
+    "words": [
+      "Ikan Mas",
+      "Ikan Lele"
+    ]
+  },
+  {
+    "id": 528,
+    "words": [
+      "Tenggiri",
+      "Tongkol"
+    ]
+  },
+  {
+    "id": 529,
+    "words": [
+      "Kakap",
+      "Gurame"
+    ]
+  },
+  {
+    "id": 530,
+    "words": [
+      "Nila",
+      "Patin"
+    ]
+  },
+  {
+    "id": 531,
+    "words": [
+      "Bandeng",
+      "Mujair"
+    ]
+  },
+  {
+    "id": 532,
+    "words": [
+      "Belut",
+      "Sidat"
+    ]
+  },
+  {
+    "id": 533,
+    "words": [
+      "Kerang",
+      "Tiram"
+    ]
+  },
+  {
+    "id": 534,
+    "words": [
+      "Teripang",
+      "Bintang Laut"
+    ]
+  },
+  {
+    "id": 535,
+    "words": [
+      "Kuda Laut",
+      "Ubur-ubur"
+    ]
+  },
+  {
+    "id": 536,
+    "words": [
+      "Teri",
+      "Cumi"
+    ]
+  },
+  {
+    "id": 537,
+    "words": [
+      "Teh Manis",
+      "Es Teh"
+    ]
+  },
+  {
+    "id": 538,
+    "words": [
+      "Kopi Susu",
+      "Kopi Hitam"
+    ]
+  },
+  {
+    "id": 539,
+    "words": [
+      "Jus Apel",
+      "Jus Jeruk"
+    ]
+  },
+  {
+    "id": 540,
+    "words": [
+      "Susu Cokelat",
+      "Susu Vanilla"
+    ]
+  },
+  {
+    "id": 541,
+    "words": [
+      "Air Putih",
+      "Air Mineral"
+    ]
+  },
+  {
+    "id": 542,
+    "words": [
+      "Sirup Melon",
+      "Sirup Cocopandan"
+    ]
+  },
+  {
+    "id": 543,
+    "words": [
+      "Bir",
+      "Anggur Merah"
+    ]
+  },
+  {
+    "id": 544,
+    "words": [
+      "Soda",
+      "Limun"
+    ]
+  },
+  {
+    "id": 545,
+    "words": [
+      "Jamu",
+      "Obat Herbal"
+    ]
+  },
+  {
+    "id": 546,
+    "words": [
+      "Bandrek",
+      "Bajigur"
+    ]
+  },
+  {
+    "id": 547,
+    "words": [
+      "Kaos Kaki",
+      "Sarung Tangan"
+    ]
+  },
+  {
+    "id": 548,
+    "words": [
+      "Syal",
+      "Selendang"
+    ]
+  },
+  {
+    "id": 549,
+    "words": [
+      "Bros",
+      "Peniti"
+    ]
+  },
+  {
+    "id": 550,
+    "words": [
+      "Gesper",
+      "Sabuk"
+    ]
+  },
+  {
+    "id": 551,
+    "words": [
+      "Kacamata Hitam",
+      "Kacamata Minus"
+    ]
+  },
+  {
+    "id": 552,
+    "words": [
+      "Cincin Kawin",
+      "Cincin Tunangan"
+    ]
+  },
+  {
+    "id": 553,
+    "words": [
+      "Mahkota",
+      "Tiara"
+    ]
+  },
+  {
+    "id": 554,
+    "words": [
+      "Helm Full Face",
+      "Helm Half Face"
+    ]
+  },
+  {
+    "id": 555,
+    "words": [
+      "Kupluk",
+      "Topi Pantai"
+    ]
+  },
+  {
+    "id": 556,
+    "words": [
+      "Sandal Jepit",
+      "Sandal Gunung"
+    ]
+  },
+  {
+    "id": 557,
+    "words": [
+      "Sabun Cair",
+      "Sabun Batang"
+    ]
+  },
+  {
+    "id": 558,
+    "words": [
+      "Sikat WC",
+      "Pel Lantai"
+    ]
+  },
+  {
+    "id": 559,
+    "words": [
+      "Bak Mandi",
+      "Shower"
+    ]
+  },
+  {
+    "id": 560,
+    "words": [
+      "Tisu Basah",
+      "Tisu Kering"
+    ]
+  },
+  {
+    "id": 561,
+    "words": [
+      "Cotton Bud",
+      "Pembersih Telinga"
+    ]
+  },
+  {
+    "id": 562,
+    "words": [
+      "Gunting Kuku",
+      "Kikir Kuku"
+    ]
+  },
+  {
+    "id": 563,
+    "words": [
+      "Pembalut",
+      "Popok"
+    ]
+  },
+  {
+    "id": 564,
+    "words": [
+      "Spons Mandi",
+      "Batu Pumis"
+    ]
+  },
+  {
+    "id": 565,
+    "words": [
+      "Boneka",
+      "Robot-robotan"
+    ]
+  },
+  {
+    "id": 566,
+    "words": [
+      "Layang-layang",
+      "Gasing"
+    ]
+  },
+  {
+    "id": 567,
+    "words": [
+      "Kelereng",
+      "Bekel"
+    ]
+  },
+  {
+    "id": 568,
+    "words": [
+      "Yoyo",
+      "Kendama"
+    ]
+  },
+  {
+    "id": 569,
+    "words": [
+      "Puzzle",
+      "Lego"
+    ]
+  },
+  {
+    "id": 570,
+    "words": [
+      "Konsol Game",
+      "PC Gaming"
+    ]
+  },
+  {
+    "id": 571,
+    "words": [
+      "Joystick",
+      "Gamepad"
+    ]
+  },
+  {
+    "id": 572,
+    "words": [
+      "Kartu Pokemon",
+      "Kartu Yu-Gi-Oh"
+    ]
+  },
+  {
+    "id": 573,
+    "words": [
+      "Uno",
+      "Monopoly"
+    ]
+  },
+  {
+    "id": 574,
+    "words": [
+      "Rubik",
+      "Tamagotchi"
+    ]
+  },
+  {
+    "id": 575,
+    "words": [
+      "Dangdut",
+      "Koplo"
+    ]
+  },
+  {
+    "id": 576,
+    "words": [
+      "Pop",
+      "Rock"
+    ]
+  },
+  {
+    "id": 577,
+    "words": [
+      "Jazz",
+      "Blues"
+    ]
+  },
+  {
+    "id": 578,
+    "words": [
+      "Klasik",
+      "Seriosa"
+    ]
+  },
+  {
+    "id": 579,
+    "words": [
+      "Rap",
+      "Hip-hop"
+    ]
+  },
+  {
+    "id": 580,
+    "words": [
+      "Kaset",
+      "CD"
+    ]
+  },
+  {
+    "id": 581,
+    "words": [
+      "Piringan Hitam",
+      "Kaset Pita"
+    ]
+  },
+  {
+    "id": 582,
+    "words": [
+      "Speaker",
+      "Earphone"
+    ]
+  },
+  {
+    "id": 583,
+    "words": [
+      "Mikrofon",
+      "Megafon"
+    ]
+  },
+  {
+    "id": 584,
+    "words": [
+      "Kabut",
+      "Embun"
+    ]
+  },
+  {
+    "id": 585,
+    "words": [
+      "Gerimis",
+      "Hujan Deras"
+    ]
+  },
+  {
+    "id": 586,
+    "words": [
+      "Petir",
+      "Kilat"
+    ]
+  },
+  {
+    "id": 587,
+    "words": [
+      "Pelangi",
+      "Aurora"
+    ]
+  },
+  {
+    "id": 588,
+    "words": [
+      "Gerhana Matahari",
+      "Gerhana Bulan"
+    ]
+  },
+  {
+    "id": 589,
+    "words": [
+      "Bintang Jatuh",
+      "Komet"
+    ]
+  },
+  {
+    "id": 590,
+    "words": [
+      "Angin Puting Beliung",
+      "Tornado"
+    ]
+  },
+  {
+    "id": 591,
+    "words": [
+      "Kemarau Panjang",
+      "Pemanasan Global"
+    ]
+  },
+  {
+    "id": 592,
+    "words": [
+      "Polusi Udara",
+      "Asap Knalpot"
+    ]
+  },
+  {
+    "id": 593,
+    "words": [
+      "Cuaca Cerah",
+      "Cuaca Mendung"
+    ]
+  },
+  {
+    "id": 594,
+    "words": [
+      "Mahasiswa",
+      "Pelajar"
+    ]
+  },
+  {
+    "id": 595,
+    "words": [
+      "Rektor",
+      "Dekan"
+    ]
+  },
+  {
+    "id": 596,
+    "words": [
+      "Fakultas",
+      "Jurusan"
+    ]
+  },
+  {
+    "id": 597,
+    "words": [
+      "Semester",
+      "SKS"
+    ]
+  },
+  {
+    "id": 598,
+    "words": [
+      "Praktikum",
+      "Teori"
+    ]
+  },
+  {
+    "id": 599,
+    "words": [
+      "Laboran",
+      "Asisten Dosen"
+    ]
+  },
+  {
+    "id": 600,
+    "words": [
+      "Jaringan",
+      "Server"
+    ]
+  },
+  {
+    "id": 601,
+    "words": [
+      "Router",
+      "Modem"
+    ]
+  },
+  {
+    "id": 602,
+    "words": [
+      "Candi",
+      "Prasasti"
+    ]
+  },
+  {
+    "id": 603,
+    "words": [
+      "Keraton",
+      "Istana"
+    ]
+  },
+  {
+    "id": 604,
+    "words": [
+      "Batik",
+      "Kebaya"
+    ]
+  },
+  {
+    "id": 605,
+    "words": [
+      "Wayang",
+      "Kuda Lumping"
+    ]
+  },
+  {
+    "id": 606,
+    "words": [
+      "Gamelan",
+      "Angklung"
+    ]
+  },
+  {
+    "id": 607,
+    "words": [
+      "Keris",
+      "Rencong"
+    ]
+  },
+  {
+    "id": 608,
+    "words": [
+      "Pendekar",
+      "Jawara"
+    ]
+  },
+  {
+    "id": 609,
+    "words": [
+      "Pencak Silat",
+      "Karate"
+    ]
+  },
+  {
+    "id": 610,
+    "words": [
+      "Tinju",
+      "Gulat"
+    ]
+  },
+  {
+    "id": 611,
+    "words": [
+      "Panahan",
+      "Menembak"
+    ]
+  },
+  {
+    "id": 612,
+    "words": [
+      "Senam",
+      "Yoga"
+    ]
+  },
+  {
+    "id": 613,
+    "words": [
+      "Lari Gawang",
+      "Lari Estafet"
+    ]
+  },
+  {
+    "id": 614,
+    "words": [
+      "Lempar Lembing",
+      "Tolak Peluru"
+    ]
+  },
+  {
+    "id": 615,
+    "words": [
+      "Lompat Jauh",
+      "Lompat Tinggi"
+    ]
+  },
+  {
+    "id": 616,
+    "words": [
+      "Raket Nyamuk",
+      "Obat Nyamuk"
+    ]
+  },
+  {
+    "id": 617,
+    "words": [
+      "Kasur Lipat",
+      "Tikar"
+    ]
+  },
+  {
+    "id": 618,
+    "words": [
+      "Karung Goni",
+      "Plastik Sampah"
+    ]
+  },
+  {
+    "id": 619,
+    "words": [
+      "Sapu Lidi",
+      "Sapu Ijuk"
+    ]
+  },
+  {
+    "id": 620,
+    "words": [
+      "Pengki",
+      "Serokan"
+    ]
+  },
+  {
+    "id": 621,
+    "words": [
+      "Kemoceng",
+      "Lap Kain"
+    ]
+  },
+  {
+    "id": 622,
+    "words": [
+      "Setrika",
+      "Mesin Cuci"
+    ]
+  },
+  {
+    "id": 623,
+    "words": [
+      "Jemuran",
+      "Gantungan Baju"
+    ]
+  },
+  {
+    "id": 624,
+    "words": [
+      "Peniti",
+      "Jarum Pentul"
+    ]
+  },
+  {
+    "id": 625,
+    "words": [
+      "Benang",
+      "Tali"
+    ]
+  },
+  {
+    "id": 626,
+    "words": [
+      "Kancing",
+      "Ritsleting"
+    ]
+  },
+  {
+    "id": 627,
+    "words": [
+      "Mesin Jahit",
+      "Jarum Tangan"
+    ]
+  },
+  {
+    "id": 628,
+    "words": [
+      "Helm Proyek",
+      "Topi Koboi"
+    ]
+  },
+  {
+    "id": 629,
+    "words": [
+      "Sepatu Kets",
+      "Sepatu Pantofel"
+    ]
+  },
+  {
+    "id": 630,
+    "words": [
+      "Sandal Kulit",
+      "Sandal Karet"
+    ]
+  },
+  {
+    "id": 631,
+    "words": [
+      "Jaket Kulit",
+      "Jaket Denim"
+    ]
+  },
+  {
+    "id": 632,
+    "words": [
+      "Kemeja Flanel",
+      "Kemeja Polos"
+    ]
+  },
+  {
+    "id": 633,
+    "words": [
+      "Celana Jeans",
+      "Celana Bahan"
+    ]
+  },
+  {
+    "id": 634,
+    "words": [
+      "Rok Rempel",
+      "Rok Mini"
+    ]
+  },
+  {
+    "id": 635,
+    "words": [
+      "Gaun Pengantin",
+      "Kebaya Modern"
+    ]
+  },
+  {
+    "id": 636,
+    "words": [
+      "Daster",
+      "Piama"
+    ]
+  },
+  {
+    "id": 637,
+    "words": [
+      "Kaos Dalam",
+      "Singlet"
+    ]
+  },
+  {
+    "id": 638,
+    "words": [
+      "Celana Dalam",
+      "Boxer"
+    ]
+  },
+  {
+    "id": 639,
+    "words": [
+      "Bra",
+      "Korset"
+    ]
+  },
+  {
+    "id": 640,
+    "words": [
+      "Cincin Emas",
+      "Cincin Berlian"
+    ]
+  },
+  {
+    "id": 641,
+    "words": [
+      "Gelang Kaki",
+      "Jam Tangan Pintar"
+    ]
+  },
+  {
+    "id": 642,
+    "words": [
+      "Kalung Mutiara",
+      "Liontin"
+    ]
+  },
+  {
+    "id": 643,
+    "words": [
+      "Brosur",
+      "Pamflet"
+    ]
+  },
+  {
+    "id": 644,
+    "words": [
+      "Spanduk",
+      "Baliho"
+    ]
+  },
+  {
+    "id": 645,
+    "words": [
+      "Poster",
+      "Stiker"
+    ]
+  },
+  {
+    "id": 646,
+    "words": [
+      "Kartu Nama",
+      "ID Card"
+    ]
+  },
+  {
+    "id": 647,
+    "words": [
+      "Pas Foto",
+      "Foto Keluarga"
+    ]
+  },
+  {
+    "id": 648,
+    "words": [
+      "Album Foto",
+      "Bingkai"
+    ]
+  },
+  {
+    "id": 649,
+    "words": [
+      "Kamera DSLR",
+      "Kamera Mirrorless"
+    ]
+  },
+  {
+    "id": 650,
+    "words": [
+      "Lensa",
+      "Tripod"
+    ]
+  },
+  {
+    "id": 651,
+    "words": [
+      "Flash",
+      "Reflektor"
+    ]
+  },
+  {
+    "id": 652,
+    "words": [
+      "Drone",
+      "Helikopter RC"
+    ]
+  },
+  {
+    "id": 653,
+    "words": [
+      "Baterai AA",
+      "Baterai AAA"
+    ]
+  },
+  {
+    "id": 654,
+    "words": [
+      "Powerbank",
+      "Charger"
+    ]
+  },
+  {
+    "id": 655,
+    "words": [
+      "Layar Sentuh",
+      "Keyboard Mekanik"
+    ]
+  },
+  {
+    "id": 656,
+    "words": [
+      "Mousepad",
+      "Wrist Rest"
+    ]
+  },
+  {
+    "id": 657,
+    "words": [
+      "Headphone",
+      "TWS"
+    ]
+  },
+  {
+    "id": 658,
+    "words": [
+      "Mikrofon",
+      "Stand Mic"
+    ]
+  },
+  {
+    "id": 659,
+    "words": [
+      "Proyektor",
+      "Layar Tancap"
+    ]
+  },
+  {
+    "id": 660,
+    "words": [
+      "Bioskop",
+      "Home Theater"
+    ]
+  },
+  {
+    "id": 661,
+    "words": [
+      "Tiket Konser",
+      "Tiket Pesawat"
+    ]
+  },
+  {
+    "id": 662,
+    "words": [
+      "Akta Kelahiran",
+      "Kartu Keluarga"
+    ]
+  },
+  {
+    "id": 663,
+    "words": [
+      "Sertifikat Tanah",
+      "BPKB"
+    ]
+  },
+  {
+    "id": 664,
+    "words": [
+      "STNK",
+      "Plat Nomor"
+    ]
+  },
+  {
+    "id": 665,
+    "words": [
+      "Kunci Motor",
+      "Kunci Mobil"
+    ]
+  },
+  {
+    "id": 666,
+    "words": [
+      "Setir Mobil",
+      "Stang Motor"
+    ]
+  },
+  {
+    "id": 667,
+    "words": [
+      "Rem Cakram",
+      "Rem Tromol"
+    ]
+  },
+  {
+    "id": 668,
+    "words": [
+      "Knalpot",
+      "Spion"
+    ]
+  },
+  {
+    "id": 669,
+    "words": [
+      "Jok Motor",
+      "Bagasi Mobil"
+    ]
+  },
+  {
+    "id": 670,
+    "words": [
+      "Bensin",
+      "Solar"
+    ]
+  },
+  {
+    "id": 671,
+    "words": [
+      "Pertamax",
+      "Pertalite"
+    ]
+  },
+  {
+    "id": 672,
+    "words": [
+      "Oli Mesin",
+      "Minyak Rem"
+    ]
+  },
+  {
+    "id": 673,
+    "words": [
+      "Ban Dalam",
+      "Ban Tubeless"
+    ]
+  },
+  {
+    "id": 674,
+    "words": [
+      "Velg Racing",
+      "Jari-jari"
+    ]
+  },
+  {
+    "id": 675,
+    "words": [
+      "Helm SNI",
+      "Helm Bogo"
+    ]
+  },
+  {
+    "id": 676,
+    "words": [
+      "Jaket Touring",
+      "Jas Hujan Ponco"
+    ]
+  },
+  {
+    "id": 677,
+    "words": [
+      "Lampu Sein",
+      "Lampu Rem"
+    ]
+  },
+  {
+    "id": 678,
+    "words": [
+      "Klakson",
+      "Sirine"
+    ]
+  },
+  {
+    "id": 679,
+    "words": [
+      "Speedometer",
+      "Tachometer"
+    ]
+  },
+  {
+    "id": 680,
+    "words": [
+      "Pedal Gas",
+      "Pedal Kopling"
+    ]
+  },
+  {
+    "id": 681,
+    "words": [
+      "Gigi Persneling",
+      "Tuas Rem"
+    ]
+  },
+  {
+    "id": 682,
+    "words": [
+      "Wiper",
+      "Kaca Film"
+    ]
+  },
+  {
+    "id": 683,
+    "words": [
+      "Sabuk Pengaman",
+      "Airbag"
+    ]
+  },
+  {
+    "id": 684,
+    "words": [
+      "Dongkrak",
+      "Kunci Pas"
+    ]
+  },
+  {
+    "id": 685,
+    "words": [
+      "Obeng",
+      "Tang"
+    ]
+  },
+  {
+    "id": 686,
+    "words": [
+      "Palu",
+      "Godam"
+    ]
+  },
+  {
+    "id": 687,
+    "words": [
+      "Gergaji Mesin",
+      "Gergaji Kayu"
+    ]
+  },
+  {
+    "id": 688,
+    "words": [
+      "Bor Listrik",
+      "Gerinda"
+    ]
+  },
+  {
+    "id": 689,
+    "words": [
+      "Meteran",
+      "Waterpas"
+    ]
+  },
+  {
+    "id": 690,
+    "words": [
+      "Cat Tembok",
+      "Cat Kayu"
+    ]
+  },
+  {
+    "id": 691,
+    "words": [
+      "Thinner",
+      "Vernis"
+    ]
+  },
+  {
+    "id": 692,
+    "words": [
+      "Amplas",
+      "Dempul"
+    ]
+  },
+  {
+    "id": 693,
+    "words": [
+      "Batu Bata Merah",
+      "Batako"
+    ]
+  },
+  {
+    "id": 694,
+    "words": [
+      "Genteng",
+      "Asbes"
+    ]
+  },
+  {
+    "id": 695,
+    "words": [
+      "Seng",
+      "Baja Ringan"
+    ]
+  },
+  {
+    "id": 696,
+    "words": [
+      "Plafon",
+      "Gipsum"
+    ]
+  },
+  {
+    "id": 697,
+    "words": [
+      "Kusen",
+      "Jendela Kaca"
+    ]
+  },
+  {
+    "id": 698,
+    "words": [
+      "Gembok",
+      "Kunci Padlock"
+    ]
+  },
+  {
+    "id": 699,
+    "words": [
+      "Engsel",
+      "Slot Pintu"
+    ]
+  },
+  {
+    "id": 700,
+    "words": [
+      "Keramik",
+      "Marmer"
+    ]
+  },
+  {
+    "id": 701,
+    "words": [
+      "Granit",
+      "Batu Alam"
+    ]
+  },
+  {
+    "id": 702,
+    "words": [
+      "Karpet Bulu",
+      "Tikar Anyaman"
+    ]
+  },
+  {
+    "id": 703,
+    "words": [
+      "Kasur Busa",
+      "Springbed"
+    ]
+  },
+  {
+    "id": 704,
+    "words": [
+      "Meja Belajar",
+      "Meja Makan"
+    ]
+  },
+  {
+    "id": 705,
+    "words": [
+      "Kursi Kantor",
+      "Kursi Goyang"
+    ]
+  },
+  {
+    "id": 706,
+    "words": [
+      "Lemari Pakaian",
+      "Rak Buku"
+    ]
+  },
+  {
+    "id": 707,
+    "words": [
+      "Laci",
+      "Brankas"
+    ]
+  },
+  {
+    "id": 708,
+    "words": [
+      "Kulkas Mini",
+      "Showcase"
+    ]
+  },
+  {
+    "id": 709,
+    "words": [
+      "Rice Cooker",
+      "Panci Presto"
+    ]
+  },
+  {
+    "id": 710,
+    "words": [
+      "Teflon",
+      "Penggorengan"
+    ]
+  },
+  {
+    "id": 711,
+    "words": [
+      "Sodet",
+      "Spatula"
+    ]
+  },
+  {
+    "id": 712,
+    "words": [
+      "Sendok Sayur",
+      "Garpu Daging"
+    ]
+  },
+  {
+    "id": 713,
+    "words": [
+      "Piring Kaca",
+      "Mangkok Plastik"
+    ]
+  },
+  {
+    "id": 714,
+    "words": [
+      "Gelas Bening",
+      "Cangkir Kopi"
+    ]
+  },
+  {
+    "id": 715,
+    "words": [
+      "Sedotan Plastik",
+      "Sedotan Bambu"
+    ]
+  },
+  {
+    "id": 716,
+    "words": [
+      "Botol Minum",
+      "Termos"
+    ]
+  },
+  {
+    "id": 717,
+    "words": [
+      "Galon Air",
+      "Teko"
+    ]
+  },
+  {
+    "id": 718,
+    "words": [
+      "Saringan Kopi",
+      "Saringan Teh"
+    ]
+  },
+  {
+    "id": 719,
+    "words": [
+      "Nampan",
+      "Baki"
+    ]
+  },
+  {
+    "id": 720,
+    "words": [
+      "Serbet",
+      "Celemek"
+    ]
+  },
+  {
+    "id": 721,
+    "words": [
+      "Talenan Kayu",
+      "Talenan Plastik"
+    ]
+  },
+  {
+    "id": 722,
+    "words": [
+      "Pisau Dapur",
+      "Golok"
+    ]
+  },
+  {
+    "id": 723,
+    "words": [
+      "Ulekan",
+      "Cobek"
+    ]
+  },
+  {
+    "id": 724,
+    "words": [
+      "Buku Panduan",
+      "Kamus"
+    ]
+  },
+  {
+    "id": 725,
+    "words": [
+      "Matahari Terbit",
+      "Matahari Terbenam"
+    ]
+  },
+  {
+    "id": 726,
+    "words": [
+      "Kalender Masehi",
+      "Kalender Hijriah"
+    ]
+  },
+  {
+    "id": 727,
+    "words": [
+      "Teropong",
+      "Binokular"
+    ]
+  },
+  {
+    "id": 728,
+    "words": [
+      "Anggar",
+      "Kendo"
+    ]
+  },
+  {
+    "id": 729,
+    "words": [
+      "Selancar",
+      "Ski Air"
+    ]
+  },
+  {
+    "id": 730,
+    "words": [
+      "Maraton",
+      "Lari Sprint"
+    ]
+  },
+  {
+    "id": 731,
+    "words": [
+      "Emas",
+      "Platinum"
+    ]
+  },
+  {
+    "id": 732,
+    "words": [
+      "Tembaga",
+      "Perunggu"
+    ]
+  },
+  {
+    "id": 733,
+    "words": [
+      "Safir",
+      "Zamrud"
+    ]
+  },
+  {
+    "id": 734,
+    "words": [
+      "Berlian",
+      "Mutiara"
+    ]
+  },
+  {
+    "id": 735,
+    "words": [
+      "Gitaris",
+      "Vokalis"
+    ]
+  },
+  {
+    "id": 736,
+    "words": [
+      "Drummer",
+      "Bassist"
+    ]
+  },
+  {
+    "id": 737,
+    "words": [
+      "Konser",
+      "Festival"
+    ]
+  },
+  {
+    "id": 738,
+    "words": [
+      "Tiket",
+      "Gelang Lanyard"
+    ]
+  },
+  {
+    "id": 739,
+    "words": [
+      "Panggung",
+      "Tribun"
+    ]
+  },
+  {
+    "id": 740,
+    "words": [
+      "Sinetron",
+      "FTV"
+    ]
+  },
+  {
+    "id": 741,
+    "words": [
+      "Iklan",
+      "Trailer"
+    ]
+  },
+  {
+    "id": 742,
+    "words": [
+      "Sutradara",
+      "Produser"
+    ]
+  },
+  {
+    "id": 743,
+    "words": [
+      "Aktor",
+      "Aktris"
+    ]
+  },
+  {
+    "id": 744,
+    "words": [
+      "Naskah",
+      "Skenario"
+    ]
+  },
+  {
+    "id": 745,
+    "words": [
+      "Make-up Artist",
+      "Stylist"
+    ]
+  },
+  {
+    "id": 746,
+    "words": [
+      "Kamera Video",
+      "Camcorder"
+    ]
+  },
+  {
+    "id": 747,
+    "words": [
+      "Mikrofon Jepit",
+      "Shotgun Mic"
+    ]
+  },
+  {
+    "id": 748,
+    "words": [
+      "Radio",
+      "Podcast"
+    ]
+  },
+  {
+    "id": 749,
+    "words": [
+      "Penyiar",
+      "Host"
+    ]
+  },
+  {
+    "id": 750,
+    "words": [
+      "Berita",
+      "Dokumenter"
+    ]
+  },
+  {
+    "id": 751,
+    "words": [
+      "Komedi",
+      "Tragedi"
+    ]
+  },
+  {
+    "id": 752,
+    "words": [
+      "Horor",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 753,
+    "words": [
+      "Film Aksi",
+      "Film Petualangan"
+    ]
+  },
+  {
+    "id": 754,
+    "words": [
+      "Fiksi Ilmiah",
+      "Fantasi"
+    ]
+  },
+  {
+    "id": 755,
+    "words": [
+      "Dongeng",
+      "Fabel"
+    ]
+  },
+  {
+    "id": 756,
+    "words": [
+      "Majalah",
+      "Jurnal"
+    ]
+  },
+  {
+    "id": 757,
+    "words": [
+      "Artikel",
+      "Esai"
+    ]
+  },
+  {
+    "id": 758,
+    "words": [
+      "Paragraf",
+      "Kalimat"
+    ]
+  },
+  {
+    "id": 759,
+    "words": [
+      "Huruf",
+      "Angka"
+    ]
+  },
+  {
+    "id": 760,
+    "words": [
+      "Koma",
+      "Titik"
+    ]
+  },
+  {
+    "id": 761,
+    "words": [
+      "Tanda Tanya",
+      "Tanda Seru"
+    ]
+  },
+  {
+    "id": 762,
+    "words": [
+      "Tanda Kutip",
+      "Tanda Kurung"
+    ]
+  },
+  {
+    "id": 763,
+    "words": [
+      "Kalkulus",
+      "Aljabar"
+    ]
+  },
+  {
+    "id": 764,
+    "words": [
+      "Geometri",
+      "Trigonometri"
+    ]
+  },
+  {
+    "id": 765,
+    "words": [
+      "Biologi",
+      "Anatomi"
+    ]
+  },
+  {
+    "id": 766,
+    "words": [
+      "Geografi",
+      "Sejarah"
+    ]
+  },
+  {
+    "id": 767,
+    "words": [
+      "Sosiologi",
+      "Ekonomi"
+    ]
+  },
+  {
+    "id": 768,
+    "words": [
+      "Akuntansi",
+      "Manajemen"
+    ]
+  },
+  {
+    "id": 769,
+    "words": [
+      "Pemasaran",
+      "Penjualan"
+    ]
+  },
+  {
+    "id": 770,
+    "words": [
+      "Laba",
+      "Rugi"
+    ]
+  },
+  {
+    "id": 771,
+    "words": [
+      "Manajemen Aset",
+      "Liabilitas"
+    ]
+  },
+  {
+    "id": 772,
+    "words": [
+      "Modal",
+      "Bunga Bank"
+    ]
+  },
+  {
+    "id": 773,
+    "words": [
+      "Inflasi",
+      "Deflasi"
+    ]
+  },
+  {
+    "id": 774,
+    "words": [
+      "Ekspor",
+      "Impor"
+    ]
+  },
+  {
+    "id": 775,
+    "words": [
+      "Pajak",
+      "Cukai"
+    ]
+  },
+  {
+    "id": 776,
+    "words": [
+      "Kuitansi",
+      "Nota"
+    ]
+  },
+  {
+    "id": 777,
+    "words": [
+      "Faktur",
+      "Invoice"
+    ]
+  },
+  {
+    "id": 778,
+    "words": [
+      "Cek",
+      "Bilyet Giro"
+    ]
+  },
+  {
+    "id": 779,
+    "words": [
+      "Mesin ATM",
+      "Teller Bank"
+    ]
+  },
+  {
+    "id": 780,
+    "words": [
+      "Dompet Digital",
+      "E-Money"
+    ]
+  },
+  {
+    "id": 781,
+    "words": [
+      "Barcode",
+      "QR Code"
+    ]
+  },
+  {
+    "id": 782,
+    "words": [
+      "Kasir",
+      "Mesin EDC"
+    ]
+  },
+  {
+    "id": 783,
+    "words": [
+      "Troli",
+      "Keranjang Belanja"
+    ]
+  },
+  {
+    "id": 784,
+    "words": [
+      "Rak",
+      "Etalase"
+    ]
+  },
+  {
+    "id": 785,
+    "words": [
+      "Gudang",
+      "Pabrik"
+    ]
+  },
+  {
+    "id": 786,
+    "words": [
+      "Mandor",
+      "Buruh"
+    ]
+  },
+  {
+    "id": 787,
+    "words": [
+      "Mesin Diesel",
+      "Traktor"
+    ]
+  },
+  {
+    "id": 788,
+    "words": [
+      "Truk Gandeng",
+      "Truk Tronton"
+    ]
+  },
+  {
+    "id": 789,
+    "words": [
+      "Kontainer",
+      "Peti Kemas"
+    ]
+  },
+  {
+    "id": 790,
+    "words": [
+      "Pelabuhan",
+      "Dermaga"
+    ]
+  },
+  {
+    "id": 791,
+    "words": [
+      "Kapal Pesiar",
+      "Kapal Feri"
+    ]
+  },
+  {
+    "id": 792,
+    "words": [
+      "Jangkar",
+      "Pelampung"
+    ]
+  },
+  {
+    "id": 793,
+    "words": [
+      "Mercusuar",
+      "Menara Pandang"
+    ]
+  },
+  {
+    "id": 794,
+    "words": [
+      "Kompas Navigasi",
+      "GPS"
+    ]
+  },
+  {
+    "id": 795,
+    "words": [
+      "Radar",
+      "Sonar"
+    ]
+  },
+  {
+    "id": 796,
+    "words": [
+      "Terpedo",
+      "Ranjau Laut"
+    ]
+  },
+  {
+    "id": 797,
+    "words": [
+      "Kapal Selam",
+      "Kapal Induk"
+    ]
+  },
+  {
+    "id": 798,
+    "words": [
+      "Pesawat Tempur",
+      "Pesawat Komersial"
+    ]
+  },
+  {
+    "id": 799,
+    "words": [
+      "Helikopter",
+      "Pesawat Drone"
+    ]
+  },
+  {
+    "id": 800,
+    "words": [
+      "Balon Udara",
+      "Gantole"
+    ]
+  },
+  {
+    "id": 801,
+    "words": [
+      "Parasut",
+      "Terjun Payung"
+    ]
+  },
+  {
+    "id": 802,
+    "words": [
+      "Sayap",
+      "Baling-baling"
+    ]
+  },
+  {
+    "id": 803,
+    "words": [
+      "Kokpit",
+      "Kabin Pesawat"
+    ]
+  },
+  {
+    "id": 804,
+    "words": [
+      "Sabuk Pengaman",
+      "Masker Oksigen"
+    ]
+  },
+  {
+    "id": 805,
+    "words": [
+      "Tiket Boarding",
+      "Boarding Pass"
+    ]
+  },
+  {
+    "id": 806,
+    "words": [
+      "Koper Baju",
+      "Tas Jinjing"
+    ]
+  },
+  {
+    "id": 807,
+    "words": [
+      "Stetoskop",
+      "Tensimeter"
+    ]
+  },
+  {
+    "id": 808,
+    "words": [
+      "Termometer",
+      "Oximeter"
+    ]
+  },
+  {
+    "id": 809,
+    "words": [
+      "Jarum Suntik",
+      "Selang Infus"
+    ]
+  },
+  {
+    "id": 810,
+    "words": [
+      "Resep Dokter",
+      "Surat Rujukan"
+    ]
+  },
+  {
+    "id": 811,
+    "words": [
+      "Apoteker",
+      "Bidan"
+    ]
+  },
+  {
+    "id": 812,
+    "words": [
+      "Klinik Bersalin",
+      "Ruang UGD"
+    ]
+  },
+  {
+    "id": 813,
+    "words": [
+      "Rawat Inap",
+      "Rawat Jalan"
+    ]
+  },
+  {
+    "id": 814,
+    "words": [
+      "Asuransi Kesehatan",
+      "BPJS"
+    ]
+  },
+  {
+    "id": 815,
+    "words": [
+      "Kursi Roda",
+      "Tongkat Kruk"
+    ]
+  },
+  {
+    "id": 816,
+    "words": [
+      "Perban",
+      "Plester Luka"
+    ]
+  },
+  {
+    "id": 817,
+    "words": [
+      "Kapas",
+      "Kasa Steril"
+    ]
+  },
+  {
+    "id": 818,
+    "words": [
+      "Alkohol Tetes",
+      "Antiseptik"
+    ]
+  },
+  {
+    "id": 819,
+    "words": [
+      "Obat Sirup",
+      "Obat Kapsul"
+    ]
+  },
+  {
+    "id": 820,
+    "words": [
+      "Vitamin C",
+      "Suplemen"
+    ]
+  },
+  {
+    "id": 821,
+    "words": [
+      "Apel Merah",
+      "Pir Hijau"
+    ]
+  },
+  {
+    "id": 822,
+    "words": [
+      "Jeruk Nipis",
+      "Lemon"
+    ]
+  },
+  {
+    "id": 823,
+    "words": [
+      "Tomat Ceri",
+      "Ceri Merah"
+    ]
+  },
+  {
+    "id": 824,
+    "words": [
+      "Stroberi",
+      "Blueberry"
+    ]
+  },
+  {
+    "id": 825,
+    "words": [
+      "Blewah",
+      "Timun Suri"
+    ]
+  },
+  {
+    "id": 826,
+    "words": [
+      "Buah Duku",
+      "Buah Langsat"
+    ]
+  },
+  {
+    "id": 827,
+    "words": [
+      "Kelengkeng",
+      "Leci"
+    ]
+  },
+  {
+    "id": 828,
+    "words": [
+      "Kurma Arab",
+      "Buah Zaitun"
+    ]
+  },
+  {
+    "id": 829,
+    "words": [
+      "Kismis Manis",
+      "Kacang Almond"
+    ]
+  },
+  {
+    "id": 830,
+    "words": [
+      "Kacang Polong",
+      "Kacang Kedelai"
+    ]
+  },
+  {
+    "id": 831,
+    "words": [
+      "Tahu Bumbu",
+      "Tempe Bacem"
+    ]
+  },
+  {
+    "id": 832,
+    "words": [
+      "Ikan Asin",
+      "Ikan Teri"
+    ]
+  },
+  {
+    "id": 833,
+    "words": [
+      "Udang Rebon",
+      "Udang Ebi"
+    ]
+  },
+  {
+    "id": 834,
+    "words": [
+      "Kerang Dara",
+      "Kerang Hijau"
+    ]
+  },
+  {
+    "id": 835,
+    "words": [
+      "Kepiting",
+      "Rajungan"
+    ]
+  },
+  {
+    "id": 836,
+    "words": [
+      "Lobster",
+      "Udang Galah"
+    ]
+  },
+  {
+    "id": 837,
+    "words": [
+      "Terumbu Karang",
+      "Anemon Laut"
+    ]
+  },
+  {
+    "id": 838,
+    "words": [
+      "Rumput Laut",
+      "Lumut Hijau"
+    ]
+  },
+  {
+    "id": 839,
+    "words": [
+      "Siput",
+      "Keong"
+    ]
+  },
+  {
+    "id": 840,
+    "words": [
+      "Bekicot",
+      "Lintah"
+    ]
+  },
+  {
+    "id": 841,
+    "words": [
+      "Cacing Tanah",
+      "Ulat Bulu"
+    ]
+  },
+  {
+    "id": 842,
+    "words": [
+      "Kupu-kupu Malam",
+      "Capung"
+    ]
+  },
+  {
+    "id": 843,
+    "words": [
+      "Lebah Madu",
+      "Tawon"
+    ]
+  },
+  {
+    "id": 844,
+    "words": [
+      "Kecoak",
+      "Jangkrik"
+    ]
+  },
+  {
+    "id": 845,
+    "words": [
+      "Belalang",
+      "Kunang-kunang"
+    ]
+  },
+  {
+    "id": 846,
+    "words": [
+      "Semut Merah",
+      "Semut Hitam"
+    ]
+  },
+  {
+    "id": 847,
+    "words": [
+      "Lipan",
+      "Kelabang"
+    ]
+  },
+  {
+    "id": 848,
+    "words": [
+      "Kadal Berbisa",
+      "Tokek"
+    ]
+  },
+  {
+    "id": 849,
+    "words": [
+      "Cicak Dinding",
+      "Iguana"
+    ]
+  },
+  {
+    "id": 850,
+    "words": [
+      "Ular Sawah",
+      "Ular Kobra"
+    ]
+  },
+  {
+    "id": 851,
+    "words": [
+      "Biawak",
+      "Komodo"
+    ]
+  },
+  {
+    "id": 852,
+    "words": [
+      "Burung Unta",
+      "Burung Merak"
+    ]
+  },
+  {
+    "id": 853,
+    "words": [
+      "Ayam Jago",
+      "Ayam Betina"
+    ]
+  },
+  {
+    "id": 854,
+    "words": [
+      "Angsa Putih",
+      "Kalkun"
+    ]
+  },
+  {
+    "id": 855,
+    "words": [
+      "Pisang Goreng",
+      "Bakwan"
+    ]
+  },
+  {
+    "id": 856,
+    "words": [
+      "Es Cendol",
+      "Es Dawet"
+    ]
+  },
+  {
+    "id": 857,
+    "words": [
+      "Kue Lapis",
+      "Kue Pukis"
+    ]
+  },
+  {
+    "id": 858,
+    "words": [
+      "Bubur Kacang Hijau",
+      "Kolak"
+    ]
+  },
+  {
+    "id": 859,
+    "words": [
+      "Nasi Liwet",
+      "Nasi Uduk"
+    ]
+  },
+  {
+    "id": 860,
+    "words": [
+      "Ayam Bakar",
+      "Ayam Penyet"
+    ]
+  },
+  {
+    "id": 861,
+    "words": [
+      "Sambal Terasi",
+      "Sambal Matah"
+    ]
+  },
+  {
+    "id": 862,
+    "words": [
+      "Kecap Manis",
+      "Kecap Asin"
+    ]
+  },
+  {
+    "id": 863,
+    "words": [
+      "Saus Sambal",
+      "Saus Tomat"
+    ]
+  },
+  {
+    "id": 864,
+    "words": [
+      "Garam Dapur",
+      "Kaldu Jamur"
+    ]
+  },
+  {
+    "id": 865,
+    "words": [
+      "Bawang Bombay",
+      "Daun Bawang"
+    ]
+  },
+  {
+    "id": 866,
+    "words": [
+      "Seledri",
+      "Kemangi"
+    ]
+  },
+  {
+    "id": 867,
+    "words": [
+      "Cengkeh",
+      "Kayu Manis"
+    ]
+  },
+  {
+    "id": 868,
+    "words": [
+      "Biji Pala",
+      "Kapulaga"
+    ]
+  },
+  {
+    "id": 869,
+    "words": [
+      "Ketumbar",
+      "Lada Hitam"
+    ]
+  },
+  {
+    "id": 870,
+    "words": [
+      "Tepung Beras",
+      "Tepung Maizena"
+    ]
+  },
+  {
+    "id": 871,
+    "words": [
+      "Minyak Goreng",
+      "Mentega"
+    ]
+  },
+  {
+    "id": 872,
+    "words": [
+      "Keju Cheddar",
+      "Keju Mozzarella"
+    ]
+  },
+  {
+    "id": 873,
+    "words": [
+      "Susu Kental Manis",
+      "Krimer"
+    ]
+  },
+  {
+    "id": 874,
+    "words": [
+      "Kopi Bubuk",
+      "Teh Celup"
+    ]
+  },
+  {
+    "id": 875,
+    "words": [
+      "Gula Batu",
+      "Gula Merah"
+    ]
+  },
+  {
+    "id": 876,
+    "words": [
+      "Permen Karet",
+      "Permen Lolipop"
+    ]
+  },
+  {
+    "id": 877,
+    "words": [
+      "Cokelat Batang",
+      "Cokelat Bubuk"
+    ]
+  },
+  {
+    "id": 878,
+    "words": [
+      "Es Serut",
+      "Es Balok"
+    ]
+  },
+  {
+    "id": 879,
+    "words": [
+      "Puding",
+      "Agar-agar"
+    ]
+  },
+  {
+    "id": 880,
+    "words": [
+      "Biskuit",
+      "Wafer"
+    ]
+  },
+  {
+    "id": 881,
+    "words": [
+      "Kacang Garuda",
+      "Kacang Dua Kelinci"
+    ]
+  },
+  {
+    "id": 882,
+    "words": [
+      "Kuaci Bunga Matahari",
+      "Kuaci Semangka"
+    ]
+  },
+  {
+    "id": 883,
+    "words": [
+      "Keripik Singkong",
+      "Keripik Pisang"
+    ]
+  },
+  {
+    "id": 884,
+    "words": [
+      "Makaroni Pedas",
+      "Basreng"
+    ]
+  },
+  {
+    "id": 885,
+    "words": [
+      "Lumpia",
+      "Risol"
+    ]
+  },
+  {
+    "id": 886,
+    "words": [
+      "Pastel",
+      "Kroket"
+    ]
+  },
+  {
+    "id": 887,
+    "words": [
+      "Onde-onde",
+      "Kue Sus"
+    ]
+  },
+  {
+    "id": 888,
+    "words": [
+      "Kue Cubit",
+      "Pancong"
+    ]
+  },
+  {
+    "id": 889,
+    "words": [
+      "Martabak Manis",
+      "Martabak Telur"
+    ]
+  },
+  {
+    "id": 890,
+    "words": [
+      "Kebab Turki",
+      "Burger Sapi"
+    ]
+  },
+  {
+    "id": 891,
+    "words": [
+      "Hotdog",
+      "Sandwich"
+    ]
+  },
+  {
+    "id": 892,
+    "words": [
+      "Pizza Margerita",
+      "Pizza Pepperoni"
+    ]
+  },
+  {
+    "id": 893,
+    "words": [
+      "Spaghetti Bolognese",
+      "Carbonara"
+    ]
+  },
+  {
+    "id": 894,
+    "words": [
+      "Ramen Kuah",
+      "Udon Goreng"
+    ]
+  },
+  {
+    "id": 895,
+    "words": [
+      "Dimsum",
+      "Siomay Bandung"
+    ]
+  },
+  {
+    "id": 896,
+    "words": [
+      "Batagor Kuah",
+      "Pempek Kapal Selam"
+    ]
+  },
+  {
+    "id": 897,
+    "words": [
+      "Mie Aceh",
+      "Mie Celor"
+    ]
+  },
+  {
+    "id": 898,
+    "words": [
+      "Soto Betawi",
+      "Soto Lamongan"
+    ]
+  },
+  {
+    "id": 899,
+    "words": [
+      "Gudeg Jogja",
+      "Rawon Nasi"
+    ]
+  },
+  {
+    "id": 900,
+    "words": [
+      "Rendang Sapi",
+      "Dendeng Balado"
+    ]
+  },
+  {
+    "id": 901,
+    "words": [
+      "Sate Padang",
+      "Sate Lilit"
+    ]
+  },
+  {
+    "id": 902,
+    "words": [
+      "Babi Guling",
+      "Ayam Betutu"
+    ]
+  },
+  {
+    "id": 903,
+    "words": [
+      "Bebek Sinjay",
+      "Puyuh Goreng"
+    ]
+  },
+  {
+    "id": 904,
+    "words": [
+      "Burung Dara",
+      "Kalkun Panggang"
+    ]
+  },
+  {
+    "id": 905,
+    "words": [
+      "Ikan Gurame Bakar",
+      "Nila Goreng"
+    ]
+  },
+  {
+    "id": 906,
+    "words": [
+      "Lele Penyet",
+      "Pecel Lele"
+    ]
+  },
+  {
+    "id": 907,
+    "words": [
+      "Bandeng Presto",
+      "Tongkol Balado"
+    ]
+  },
+  {
+    "id": 908,
+    "words": [
+      "Teri Kacang",
+      "Cumi Asin"
+    ]
+  },
+  {
+    "id": 909,
+    "words": [
+      "Udang Saus Tiram",
+      "Kepiting Saus Padang"
+    ]
+  },
+  {
+    "id": 910,
+    "words": [
+      "Kerang Dara Rebus",
+      "Kerang Hijau Saus"
+    ]
+  },
+  {
+    "id": 911,
+    "words": [
+      "Lobster Bakar",
+      "Rajungan Rebus"
+    ]
+  },
+  {
+    "id": 912,
+    "words": [
+      "Tiramisu",
+      "Matcha"
+    ]
+  },
+  {
+    "id": 913,
+    "words": [
+      "Red Velvet",
+      "Black Forest"
+    ]
+  },
+  {
+    "id": 914,
+    "words": [
+      "Cheesecake",
+      "Brownies"
+    ]
+  },
+  {
+    "id": 915,
+    "words": [
+      "Pancake",
+      "Waffle"
+    ]
+  },
+  {
+    "id": 916,
+    "words": [
+      "Crepes",
+      "Leker"
+    ]
+  },
+  {
+    "id": 917,
+    "words": [
+      "Es Krim Cokelat",
+      "Es Krim Stroberi"
+    ]
+  },
+  {
+    "id": 918,
+    "words": [
+      "Sorbet",
+      "Gelato"
+    ]
+  },
+  {
+    "id": 919,
+    "words": [
+      "Jus Alpukat",
+      "Jus Mangga"
+    ]
+  },
+  {
+    "id": 920,
+    "words": [
+      "Es Kelapa Muda",
+      "Es Jeruk"
+    ]
+  },
+  {
+    "id": 921,
+    "words": [
+      "Teh Tarik",
+      "Kopi Kenangan"
+    ]
+  },
+  {
+    "id": 922,
+    "words": [
+      "Boba Milk Tea",
+      "Thai Tea"
+    ]
+  },
+  {
+    "id": 923,
+    "words": [
+      "Cincau Hitam",
+      "Selasih"
+    ]
+  },
+  {
+    "id": 924,
+    "words": [
+      "Sirup Marjan",
+      "Sirup ABC"
+    ]
+  },
+  {
+    "id": 925,
+    "words": [
+      "Air Galon",
+      "Air Kemasan"
+    ]
+  },
+  {
+    "id": 926,
+    "words": [
+      "Botol Plastik",
+      "Termos Kopi"
+    ]
+  },
+  {
+    "id": 927,
+    "words": [
+      "Mangkuk Ayam Jago",
+      "Piring Rotan"
+    ]
+  },
+  {
+    "id": 928,
+    "words": [
+      "Sendok Plastik",
+      "Garpu Kayu"
+    ]
+  },
+  {
+    "id": 929,
+    "words": [
+      "Tusuk Sate",
+      "Tusuk Gigi"
+    ]
+  },
+  {
+    "id": 930,
+    "words": [
+      "Pisau Roti",
+      "Pisau Cukur"
+    ]
+  },
+  {
+    "id": 931,
+    "words": [
+      "Cobek Batu",
+      "Ulekan Kayu"
+    ]
+  },
+  {
+    "id": 932,
+    "words": [
+      "Panci Anti Lengket",
+      "Wajan Baja"
+    ]
+  },
+  {
+    "id": 933,
+    "words": [
+      "Spatula Silikon",
+      "Sodet Kayu"
+    ]
+  },
+  {
+    "id": 934,
+    "words": [
+      "Centong Nasi",
+      "Irus Sayur"
+    ]
+  },
+  {
+    "id": 935,
+    "words": [
+      "Saringan Teh",
+      "Saringan Santan"
+    ]
+  },
+  {
+    "id": 936,
+    "words": [
+      "Parutan Keju",
+      "Parutan Kelapa"
+    ]
+  },
+  {
+    "id": 937,
+    "words": [
+      "Kulkas 2 Pintu",
+      "Freezer Box"
+    ]
+  },
+  {
+    "id": 938,
+    "words": [
+      "Oven Listrik",
+      "Oven Gas"
+    ]
+  },
+  {
+    "id": 939,
+    "words": [
+      "Microwave",
+      "Air Fryer"
+    ]
+  },
+  {
+    "id": 940,
+    "words": [
+      "Blender Kaca",
+      "Chopper Daging"
+    ]
+  },
+  {
+    "id": 941,
+    "words": [
+      "Mixer Roti",
+      "Pemanggang Roti"
+    ]
+  },
+  {
+    "id": 942,
+    "words": [
+      "Teko Air",
+      "Dispenser Galon"
+    ]
+  },
+  {
+    "id": 943,
+    "words": [
+      "Mesin Kopi",
+      "Grinder Kopi"
+    ]
+  },
+  {
+    "id": 944,
+    "words": [
+      "Timbangan Dapur",
+      "Gelas Takar"
+    ]
+  },
+  {
+    "id": 945,
+    "words": [
+      "Bungkus Nasi",
+      "Daun Pisang"
+    ]
+  },
+  {
+    "id": 946,
+    "words": [
+      "Kertas Minyak",
+      "Plastik Klip"
+    ]
+  },
+  {
+    "id": 947,
+    "words": [
+      "Karet Gelang",
+      "Tali Rafia"
+    ]
+  },
+  {
+    "id": 948,
+    "words": [
+      "Kresek Hitam",
+      "Kantong Belanja"
+    ]
+  },
+  {
+    "id": 949,
+    "words": [
+      "Kain Serbet",
+      "Tisu Dapur"
+    ]
+  },
+  {
+    "id": 950,
+    "words": [
+      "Spons Cuci",
+      "Sabun Colek"
+    ]
+  },
+  {
+    "id": 951,
+    "words": [
+      "Sikat Botol",
+      "Sikat Panci"
+    ]
+  },
+  {
+    "id": 952,
+    "words": [
+      "Pembersih Lantai",
+      "Pewangi Pakaian"
+    ]
+  },
+  {
+    "id": 953,
+    "words": [
+      "Jepit Jemuran",
+      "Keranjang Baju"
+    ]
+  },
+  {
+    "id": 954,
+    "words": [
+      "Setrika Uap",
+      "Papan Setrika"
+    ]
+  },
+  {
+    "id": 955,
+    "words": [
+      "Gembok Motor",
+      "Kunci Ganda"
+    ]
+  },
+  {
+    "id": 956,
+    "words": [
+      "Jas Hujan Kelelawar",
+      "Mantel Hujan"
+    ]
+  },
+  {
+    "id": 957,
+    "words": [
+      "Helm SNI",
+      "Kaca Helm"
+    ]
+  },
+  {
+    "id": 958,
+    "words": [
+      "Kunci L",
+      "Kunci Inggris"
+    ]
+  },
+  {
+    "id": 959,
+    "words": [
+      "Tang Buaya",
+      "Obeng Plus"
+    ]
+  },
+  {
+    "id": 960,
+    "words": [
+      "Amplas Halus",
+      "Amplas Kasar"
+    ]
+  },
+  {
+    "id": 961,
+    "words": [
+      "Paku Payung",
+      "Paku Beton"
+    ]
+  },
+  {
+    "id": 962,
+    "words": [
+      "Lem Tembak",
+      "Lem Korea"
+    ]
+  },
+  {
+    "id": 963,
+    "words": [
+      "Selotip Bening",
+      "Lakban Hitam"
+    ]
+  },
+  {
+    "id": 964,
+    "words": [
+      "Double Tape",
+      "Masking Tape"
+    ]
+  },
+  {
+    "id": 965,
+    "words": [
+      "Kardus Indomie",
+      "Kardus Sepatu"
+    ]
+  },
+  {
+    "id": 966,
+    "words": [
+      "Bubble Wrap",
+      "Styrofoam"
+    ]
+  },
+  {
+    "id": 967,
+    "words": [
+      "Busa Ati",
+      "Kain Flanel"
+    ]
+  },
+  {
+    "id": 968,
+    "words": [
+      "Kertas Kado",
+      "Pita Ribbon"
+    ]
+  },
+  {
+    "id": 969,
+    "words": [
+      "Gunting Kertas",
+      "Cutter Besar"
+    ]
+  },
+  {
+    "id": 970,
+    "words": [
+      "Penghapus Papan",
+      "Tinta Printer"
+    ]
+  },
+  {
+    "id": 971,
+    "words": [
+      "Kuas Lukis",
+      "Palet Warna"
+    ]
+  },
+  {
+    "id": 972,
+    "words": [
+      "Crayon",
+      "Pensil Warna"
+    ]
+  },
+  {
+    "id": 973,
+    "words": [
+      "Senar Gitar",
+      "Pick Gitar"
+    ]
+  },
+  {
+    "id": 974,
+    "words": [
+      "Drum Stick",
+      "Pedal Drum"
+    ]
+  },
+  {
+    "id": 975,
+    "words": [
+      "Suling Bambu",
+      "Pianika"
+    ]
+  }
 ]
